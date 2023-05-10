@@ -9,7 +9,8 @@ body {
 header {
     height: 150px;
     width: 100%;
-    background: default;
+    background: URL(../images/headerpic.jpg);
+
 }
 
 #logo {
@@ -17,18 +18,24 @@ header {
     padding-left: 5px;
     float: left;
     letter-spacing: 6px;
+    border-bottom: 20px;
+    border-color: black;
 }
 
 #menu {
     float: right;
     padding-top: 15px;
-    background-color: inherit;
+    font: inherit;
     padding-right: 10px;
 }
 
 #menu>a {
     text-decoration: none;
-    color: rgb(128, 128, 128);
+    color: black;
+    font-family: 'Bruno Ace SC', serif;
+    text-decoration: bold;
+    font-weight: 200;
+    background: white;
 }
 
 #menu,
@@ -76,7 +83,7 @@ info h1 {
 
 }
 
-#why-us-container {
+.why-us-container {
     width: 90%;
     height: 100%;
     max-width: 800px;
@@ -88,4 +95,9 @@ info h1 {
 
 }
 
-#why-us-content {}
+.why-us-content {
+    margin: 15px auto;
+    padding: 58px 0px 0px 20px;
+    color: black;
+
+}
