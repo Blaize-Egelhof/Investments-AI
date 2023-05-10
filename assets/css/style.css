@@ -1,38 +1,58 @@
 header {
-    height: 120px;
+    height: 150px;
     width: 100%;
-    background-color: grey;
+    background: URL(../images/project1_headerimage.PNG) no-repeat center / cover;
 }
-
-
 
 #logo {
     font-family: 'Bruno Ace SC', serif;
     padding-left: 5px;
     float: left;
     letter-spacing: 6px;
-
-
-
-
 }
 
 #menu {
     float: right;
     padding-top: 15px;
-    background-color: grey;
+    background-color: inherit;
     padding-right: 10px;
-
-    color: inherit;
-
 }
 
 #menu>a {
     text-decoration: none;
-    color: white;
+    color: rgb(128, 128, 128);
 }
 
 #menu,
 #logo {
     line-height: normal;
+}
+
+#hero-section {
+    width: 100%;
+    height: 55vh;
+    background: URL(../images/project1_headerimage.PNG) no-repeat center / cover;
+    color: white;
+
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info {
+    margin: 15px auto;
+    padding: 58px 0px 0px 20px;
+
+}
+
+info h1 {
+    margin-bottom: 5px;
 }
