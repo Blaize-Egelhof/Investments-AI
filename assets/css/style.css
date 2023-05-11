@@ -3,6 +3,7 @@
 
 body {
     font-family: Roboto, serif;
+    color: white;
 
 }
 
@@ -45,7 +46,7 @@ header {
 
 #hero-section {
     width: 100%;
-    height: 55vh;
+    height: 75vh;
     background: URL(../images/01\ -\ Kipp\ Abstract\ Background\ for\ Tech\ Dots\ &\ Lines\ Connection\ by\ SlidesCorner.com.jpg) no-repeat center / cover;
     color: white;
 
@@ -75,9 +76,10 @@ info h1 {
 #why-us-section {
 
     width: 100%;
-    height: 55vh;
-    background: URL(#) no-repeat center / cover;
+    height: 75vh;
+    background: URL('../images/Business\ candle\ stick\ graph\ chart\ of\ stock\ market\ investment\ trading____\ \(1\).jpg') no-repeat center / cover fixed;
     color: white;
+
 
 
 
@@ -93,11 +95,68 @@ info h1 {
     justify-content: center;
 
 
+
 }
 
 .why-us-content {
     margin: 15px auto;
     padding: 58px 0px 0px 20px;
-    color: black;
+    color: white;
+
+
+
+}
+
+#meet-our-team {
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.meet-our-team-inner-container {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.meet-our-team-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.member-profile {
+    height: 50%;
+    width: 30%;
+    background-color: lightblue;
+    margin: 0 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    fit: auto;
+
+
+
+
+}
+
+.member-profile-pic {
+
+    height: 120px;
+    width: 120px;
+    border-radius: 90px;
+    background: white;
+
+
+
 
 }
