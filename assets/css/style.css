@@ -11,8 +11,10 @@ header {
     height: 150px;
     width: 100%;
     background: URL(../images/headerpic.jpg);
-    border-bottom: groove;
-
+    border-bottom: black;
+    border-style: groove;
+    margin-bottom: -13px;
+    margin-top: -5px;
 }
 
 #logo {
@@ -53,10 +55,11 @@ header {
 
 }
 
-.info h2>p {
-    word-spacing: 100px;
+.info p {
+    word-spacing: 3px;
     font-size: larger;
     margin: none;
+    margin-left: 40px;
 
 
 }
@@ -65,6 +68,7 @@ header {
 .info a {
     float: right;
     text-decoration-color: lightblue;
+    color: white;
 
 }
 
@@ -73,13 +77,15 @@ header {
     font-family: 'Bruno Ace SC', serif;
     font-size: 30px;
     padding-bottom: 20px;
+    margin-top: 7px;
+    margin-left: 40px;
 }
 
 .container {
     width: 90%;
     height: 100%;
     max-width: 800px;
-    margin: 0 148, 8px 0 0;
+
     display: block;
     align-items: center;
     justify-content: center;
@@ -110,23 +116,29 @@ header {
 }
 
 .why-us-container {
+    display: flex;
     width: 90%;
     height: 100%;
     max-width: 800px;
     margin: 0 auto;
     display: block;
     align-items: center;
-    justify-content: center;
-
 
 
 }
 
 .why-us-content {
-    margin: 15px auto;
-    padding: 58px 0px 0px 20px;
+    padding: 20px;
+    margin: 1px auto;
     color: white;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.6);
+
+
+
+}
+
+.why-choose-us-context {
+    text-align: center;
 
 
 
@@ -134,10 +146,33 @@ header {
 
 .why-us-content h1 {
     float: center;
+    font-family: 'Bruno Ace SC', serif;
+    text-decoration: bold;
+    font-size: 30px;
 
 }
 
+.why-us-content p {
+    word-spacing: 3px;
+    font-size: larger;
+    margin: none;
+    margin-left: auto;
+}
 
+.why-us-content a {
+    color: white;
+}
+
+
+.margin-right {
+    margin-left: 15px;
+}
+
+.whychoose-anchor {
+    float: right;
+    padding-top: 20px;
+    margin-left: 15px;
+}
 
 #meet-our-team {
 
