@@ -160,3 +160,17 @@ info h1 {
 
 
 }
+
+
+#footer-container {
+    height: 100px;
+    width: 100%;
+    background: URL('../images/headerpic.jpg');
+
+
+}
+
+.footer-inner-container {
+    height: inherit;
+    width: 100%;
+}
