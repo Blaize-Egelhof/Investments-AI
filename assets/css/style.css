@@ -264,3 +264,7 @@ header {
 
 
 }
+
+.float-left {
+    float: left;
+}
