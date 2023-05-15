@@ -229,6 +229,69 @@ header {
 
 }
 
+/* Sign Up form CSS */
+
+.form-body {
+    background: blue;
+
+}
+
+.form-title {
+    font-family: serif;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: -450px;
+    margin-left: 400px;
+    font-size: 30px;
+
+}
+
+.container-form {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+
+    display: block;
+
+
+}
+
+
+/* start flexing */
+.form-dimension {
+    height: 100vh;
+}
+
+.flex-outer li,
+.flex-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-outer>li>label,
+.flex-outer li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.flex-outer>li>label+*,
+.flex-inner {
+    flex: 1 0 220px;
+}
+
+.flex-outer {
+    float: right;
+    margin-top: 150px;
+}
+
+.button-spacing {
+    margin-right: 10px;
+}
+
+
 
 #footer-container {
     height: 100px;
@@ -237,34 +300,17 @@ header {
     border-top: groove;
 }
 
+
 .footer-inner-container {
     height: inherit;
     width: 100%;
 }
 
-
-
-
-
-
-#login-form-parent {
-    height: 100vh;
-    width: 100%;
-    background: red;
-    margin-top: 14px;
-    text-align: center;
+.footer-content h2 {
+    padding: auto;
 
 }
 
-#login-form {
-    height: 50%;
-    width: 50%;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 20px auto;
-
-
-}
-
-.float-left {
-    float: left;
+.footer-content p {
+    padding: auto;
 }
