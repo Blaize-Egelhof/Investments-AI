@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
 
     <!--...-->
-    <title>Sign Up</title>
+    <title>Login</title>
     <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -28,9 +28,8 @@
         <h1 id="logo">Investments A.I</h1>
 
         <ul id="menu">
-            <a href="index.html" target="_blank">Home</a> </li>
-            <a href="#" target="_blank">Login </a> </li>
-            <a href="#" target="_blank">Legal Stuff </a> </li>
+            <a href="index.html">Home | </a> </li>
+            <a href="sign_up_form.html" target="_blank">Sign Up </a> </li>
 
 
         </ul>
@@ -39,60 +38,26 @@
     <section id="form-body">
         <div class="form-dimension">
             <div class="container-form">
-                <h1 class="form-title">Fill in the form below and we will contact you !</h1>
-                <form>
+                <h1 class="form-title">Login</h1>
+                <form method="POST" target="#">
 
                     <ul class="flex-outer">
                         <li>
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" placeholder="Enter your first name here" required>
-                        </li>
-                        <li>
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" placeholder="Enter your last name here" required>
+                            <label for="client-id">Client ID</label>
+                            <input type="text" id="client-id" placeholder="Enter your uniquely 
+assigned ID " required>
                         </li>
                         <li>
                             <label for="email">Email</label>
                             <input type="email" id="email" placeholder="Enter your email here" required>
                         </li>
                         <li>
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" placeholder="Enter your phone here" required>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter your password here" required>
                         </li>
+
                         <li>
-                            <label for="reason_for_applying">Reason for Applying?</label>
-                            <textarea rows="6" id="reason_for_applying"
-                                placeholder="Enter your message here (Optional)"></textarea>
-                        </li>
-                        <li>
-                            <p>Age</p>
-                            <ul class="flex-inner">
-                                <li>
-                                    <input type="checkbox" id="twenty-to-twentynine">
-                                    <label for="twenty-to-twentynine">20-29</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="thirty-to-thirtynine">
-                                    <label for="thirty-to-thirtynine">30-39</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="fourty-to-fourtynine">
-                                    <label for="fourty-to-fourtynine">40-49</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="fifty-to-fiftynine">
-                                    <label for="fifty-to-fiftynine">50-59</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="sixty-to-sixtynine">
-                                    <label for="sixty-to-sixtynine">60-69</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="other">
-                                    <label for="other">Other</label>
-                                </li>
-                            </ul>
-                        </li>
+
                         <li>
                             <button class="button-spacing" type="submit">Submit</button>
                             <button type="reset">Reset</button>
