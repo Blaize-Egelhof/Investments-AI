@@ -48,7 +48,29 @@ header {
     line-height: normal;
 }
 
+.form-body {
+    background: blue;
+}
 
+.form-title {
+    font-family: serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -143px;
+    font-size: 30px;
+}
+
+.container-form {
+    width: 100%;
+    height: 98%;
+    max-width: 800px;
+    margin: auto;
+    background: whitesmoke;
+}
+
+
+
+/* Sign-up /Login form CSS */
 
 .form-body {
     background: blue;
@@ -120,6 +142,8 @@ header {
 .button-spacing {
     margin-right: 10px;
 }
+
+
 
 #footer-container {
     height: 100px;
