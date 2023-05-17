@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-;
 
 body {
     font-family: Roboto, serif;
-    color: grey;
-
-
 }
 
 header {
@@ -68,8 +64,6 @@ header {
     background: whitesmoke;
 }
 
-
-
 /* Sign-up /Login form CSS */
 
 .form-body {
@@ -92,13 +86,11 @@ header {
     background: whitesmoke;
 }
 
-
 /* start flexing */
+
 .form-dimension {
     height: 100vh;
 }
-
-
 
 .flex-outer li,
 .flex-inner {
@@ -143,15 +135,12 @@ header {
     margin-right: 10px;
 }
 
-
-
 #footer-container {
     height: 100px;
     width: 100%;
     background: URL('../images/headerpic.jpg');
     border-top: groove;
 }
-
 
 .footer-inner-container {
     height: inherit;

@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-;
 
 body {
     font-family: Roboto, serif;
-    color: grey;
-
-
 }
 
 header {
@@ -53,7 +49,6 @@ header {
     height: 75vh;
     background: URL(../images/01\ -\ Kipp\ Abstract\ Background\ for\ Tech\ Dots\ &\ Lines\ Connection\ by\ SlidesCorner.com.jpg) no-repeat center / cover;
     color: white;
-
 }
 
 .info p {
@@ -61,20 +56,15 @@ header {
     font-size: larger;
     margin: none;
     margin-left: 40px;
-
-
 }
-
 
 .info a {
     float: right;
     text-decoration-color: lightblue;
     color: white;
-
 }
 
 .info h2 {
-
     font-family: 'Bruno Ace SC', serif;
     font-size: 30px;
     padding-bottom: 20px;
@@ -86,34 +76,26 @@ header {
     width: 90%;
     height: 100%;
     max-width: 800px;
-
     display: block;
     align-items: center;
     justify-content: center;
-
 }
 
 .info {
     margin: 15px auto;
     padding: 58px 0px 0px 20px;
     width: 900px;
-
 }
 
 .info h1 {
-    margin-bottom: 5px;
+margin-bottom: 5px;
 }
 
 #why-us-section {
-
-    width: 100%;
-    height: 75vh;
-    background: URL('../images/Business\ candle\ stick\ graph\ chart\ of\ stock\ market\ investment\ trading.png') no-repeat center / cover fixed;
-    color: white;
-
-
-
-
+width: 100%;
+height: 75vh;
+background: URL('../images/Business\ candle\ stick\ graph\ chart\ of\ stock\ market\ investment\ trading.png') no-repeat center / cover fixed;
+color: white;
 }
 
 .why-us-container {
@@ -124,8 +106,6 @@ header {
     margin: 0 auto;
     display: block;
     align-items: center;
-
-
 }
 
 .why-us-content {
@@ -133,16 +113,10 @@ header {
     margin: 1px auto;
     color: white;
     background: rgba(0, 0, 0, 0.6);
-
-
-
 }
 
 .why-choose-us-context {
     text-align: center;
-
-
-
 }
 
 .why-us-content h1 {
@@ -150,7 +124,6 @@ header {
     font-family: 'Bruno Ace SC', serif;
     text-decoration: bold;
     font-size: 30px;
-
 }
 
 .why-us-content p {
@@ -164,7 +137,6 @@ header {
     color: white;
 }
 
-
 .margin-right {
     margin-left: 15px;
 }
@@ -176,7 +148,6 @@ header {
 }
 
 #meet-our-team {
-
     width: 100%;
     box-sizing: border-box;
 }
@@ -189,44 +160,42 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: -40px;
 }
 
 .meet-our-team-heading {
+    font-family: 'Bruno Ace SC', serif;
     width: 100%;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: -30px ;
     margin-bottom: 10px;
 }
-
-
 
 .member-profile {
     height: 50%;
     width: 30%;
     background-color: lightblue;
-    margin: 0 10px;
+    margin: 10px 10px 45px 10px;
     display: flex;
     align-items: top;
     justify-content: space-evenly;
     fit: auto;
-
-
-
-
 }
 
 .member-profile-pic {
-
     height: 120px;
     width: 120px;
     border-radius: 90px;
     background: white;
+}
 
-
-
-
+.member-picture-leomord {
+    height:100%;
+    width: 100%;
+    background: red ;
+    overflow: hidden;
 }
 
 /* Sign-up /Login form CSS */
@@ -251,13 +220,11 @@ header {
     background: whitesmoke;
 }
 
+/* start flexing  */
 
-/* start flexing */
 .form-dimension {
     height: 100vh;
 }
-
-
 
 .flex-outer li,
 .flex-inner {
@@ -302,15 +269,12 @@ header {
     margin-right: 10px;
 }
 
-
-
 #footer-container {
     height: 100px;
     width: 100%;
     background: URL('../images/headerpic.jpg');
     border-top: groove;
 }
-
 
 .footer-inner-container {
     height: inherit;
@@ -319,9 +283,10 @@ header {
 
 .footer-content h2 {
     padding: auto;
-
 }
 
 .footer-content p {
     padding: auto;
 }
+
+
