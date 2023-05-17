@@ -284,7 +284,7 @@ color: white;
 
 /* Sign-up form  END*/
 
-/* Footer setion */
+/* Footer section */
 
 #footer-container {
     height: 100px;
@@ -306,7 +306,7 @@ color: white;
     padding: auto;
 }
 
-/* Footer setion END*/
+/* Footer section END*/
 
 /* Media Query for index.html */
 
@@ -364,15 +364,13 @@ color: white;
                  font-size: small; 
                 margin: none;
                 margin-left: auto;
-               
             }
 
             .info p {
                 word-spacing: 3px;
                 font-size: small;
                 margin: none;
-                margin-left: 40px;
-                
+                margin-left: 40px; 
             }
 
             @media screen and (max-width: 425px) {
@@ -425,6 +423,7 @@ color: white;
                         padding-right: 10px;
                         float: none;
                     }
+
                     @media screen and (max-width: 340px) {
 
                         .info h2 {
