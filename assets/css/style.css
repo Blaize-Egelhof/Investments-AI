@@ -84,7 +84,7 @@ header {
 .info {
     margin: 15px auto;
     padding: 58px 0px 0px 20px;
-    width: 900px;
+    width: 90%;
 }
 
 .info h1 {
@@ -195,7 +195,7 @@ color: white;
     height:100%;
     width: 100%;
     background: red ;
-    overflow: hidden;
+    border-radius: 90px;
 }
 
 /* Sign-up /Login form CSS */
@@ -289,4 +289,157 @@ color: white;
     padding: auto;
 }
 
+/* Media Query for index.html */
 
+@media screen and (max-width: 636px) {
+
+
+    .meet-our-team-inner-container {
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: -40px;
+    }
+
+    .why-us-content p {
+        word-spacing: 3px;
+        font-size: medium;
+        margin: none;
+        margin-left: auto;
+    }
+
+        .info p {
+            word-spacing: 3px;
+            font-size: medium;
+            margin: none;
+            margin-left: 40px;
+        }
+
+        .why-us-container {
+            display: flex;
+            /* width: 90%; */
+            height: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            display: block;
+    }
+
+    .member-profile {
+        height: 50%;
+        width: 24%;
+        background-color: lightblue;
+        margin: 10px 10px 45px 10px;
+        display: flex;
+        align-items: top;
+        justify-content: space-evenly;
+        fit: auto;
+    }
+
+
+
+        @media screen and (max-width: 567px) {
+
+            .why-us-content p {
+                word-spacing: 3px;
+                 font-size: small; 
+                margin: none;
+                margin-left: auto;
+               
+            }
+
+            .info p {
+                word-spacing: 3px;
+                font-size: small;
+                margin: none;
+                margin-left: 40px;
+                
+            }
+
+            @media screen and (max-width: 425px) {
+                #logo {
+                    font-family: 'Bruno Ace SC', serif;
+                    padding-left: 5px;
+                    float: left;
+                    letter-spacing: 5px;
+                    border-bottom: 20px;
+                    border-color: black;
+                }
+
+                @media screen and (max-width: 409px) {
+                    #logo {
+                        font-family: 'Bruno Ace SC', serif;
+                        padding-left: 5px;
+                        float: left;
+                        border-bottom: 20px;
+                        border-color: black;
+                    }
+
+                    .info h2 {
+                        font-family: 'Bruno Ace SC', serif;
+                        font-size: 30px;
+                        padding-bottom: 20px;
+                        margin-top: 7px;
+                        margin-left: 39px;
+                    }
+
+                    .why-us-content h1 {
+                        float: center;
+                        font-family: 'Bruno Ace SC', serif;
+                        text-decoration: bold;
+                        font-size: 23px;
+                    }
+
+
+                    .margin-right {
+                        margin-left: 31px;
+                    }
+
+                    .whychoose-anchor {
+                        float: right;
+                        padding-top: 20px;
+                        margin-left: 23px;
+                    }
+
+                    #menu {
+                        padding-top: 15px;
+                        font: inherit;
+                        padding-right: 10px;
+                        float: none;
+                    }
+                    @media screen and (max-width: 340px) {
+
+
+                        .info h2 {
+                            font-family: 'Bruno Ace SC', serif;
+                            font-size: 28px;
+                            padding-bottom: 20px;
+                            margin-top: 7px;
+                            margin-left: 39px;
+                        }
+
+                        .why-us-content h1 {
+                            font-size: 22px;
+                        }
+
+                        .why-us-content h1 {
+                            margin: inherit;
+                        }
+
+                        @media screen and (max-width: 362px) {
+                            .why-us-content h1 {
+                                font-size: 21px;
+                            }
+
+                            .info h2 {
+                                font-size: 27px;
+                            }
+
+                            #logo {
+                                font-size: 30px;
+                            }
+
+}
