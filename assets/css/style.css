@@ -3,7 +3,7 @@
 body {
     font-family: Roboto, serif;
 }
-
+/* Header section */
 header {
     height: 150px;
     width: 100%;
@@ -43,6 +43,9 @@ header {
 #logo {
     line-height: normal;
 }
+/* Header section END */
+
+/* Hero Section / Who we are section */
 
 #hero-section {
     width: 100%;
@@ -90,6 +93,10 @@ header {
 .info h1 {
 margin-bottom: 5px;
 }
+
+/* Hero Section / Who we are section  END*/
+
+/* Why Choose us section */
 
 #why-us-section {
 width: 100%;
@@ -147,6 +154,10 @@ color: white;
     margin-left: 15px;
 }
 
+/* Why Choose us section END */
+
+/* Meet the team section */
+
 #meet-our-team {
     width: 100%;
     box-sizing: border-box;
@@ -198,7 +209,9 @@ color: white;
     border-radius: 90px;
 }
 
-/* Sign-up /Login form CSS */
+/* Meet the team section  END*/
+
+/* Sign-up form */
 
 .form-body {
     background: blue;
@@ -269,6 +282,10 @@ color: white;
     margin-right: 10px;
 }
 
+/* Sign-up form  END*/
+
+/* Footer setion */
+
 #footer-container {
     height: 100px;
     width: 100%;
@@ -289,10 +306,11 @@ color: white;
     padding: auto;
 }
 
+/* Footer setion END*/
+
 /* Media Query for index.html */
 
 @media screen and (max-width: 636px) {
-
 
     .meet-our-team-inner-container {
         width: 100%;
@@ -338,8 +356,6 @@ color: white;
         justify-content: space-evenly;
         fit: auto;
     }
-
-
 
         @media screen and (max-width: 567px) {
 
@@ -393,7 +409,6 @@ color: white;
                         font-size: 23px;
                     }
 
-
                     .margin-right {
                         margin-left: 31px;
                     }
@@ -411,7 +426,6 @@ color: white;
                         float: none;
                     }
                     @media screen and (max-width: 340px) {
-
 
                         .info h2 {
                             font-family: 'Bruno Ace SC', serif;
@@ -442,4 +456,4 @@ color: white;
                                 font-size: 30px;
                             }
 
-}
+}               /* Media Query for index.html END */
