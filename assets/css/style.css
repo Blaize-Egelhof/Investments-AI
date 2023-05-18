@@ -290,10 +290,11 @@ color: white;
 /* Footer section */
 
 #footer-container {
-    height: 100px;
     width: 100%;
     background: URL('../images/headerpic.jpg');
     border-top: groove;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .footer-inner-container {
@@ -359,6 +360,7 @@ color: white;
         justify-content: space-evenly;
         fit: auto;
     }
+    /* Media Query for index.html */
 
         @media screen and (max-width: 567px) {
 
@@ -457,7 +459,7 @@ color: white;
                             #logo {
                                 font-size: 30px;
                             }
-
+                        }               
 }               
 /* Media Query for index.html END */
 
