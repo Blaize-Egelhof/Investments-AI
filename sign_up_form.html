@@ -18,16 +18,17 @@
     <header>
         <h1 id="logo">Investments A.I</h1>
         <ul id="menu">
-            <a href="index.html">Home |</a> </li>
-            <a href="login_form.html" target="_blank"> Login </a> </li>
+            <a href="index.html" target="blank">Home |</a> </li>
+            <a href="login_form.html" target="blank"> Login |</a> </li>
+            <a href="login_form.html" target="blank">Meet The Team </a> </li>
         </ul>
     </header>
-    <body>
+
         <section id="form-body">
             <div class="form-dimension">
                 <div class="container-form">
                     <h1 class="form-title">Fill in the form below and we will contact you !</h1>
-                    <form method="POST" target="#">
+                    <form method="POST" target="#" id="sign-in-form">
                         <ul class="flex-outer">
                             <li>
                                 <label for="first-name">First Name</label>
@@ -88,7 +89,7 @@
                 </div>
             </div>
         </section>
-    </body>
+</body>
 
     <footer>
         <section id="footer-container">
@@ -101,3 +102,57 @@
             </div>
         </section>
     </footer>
+
+  <!--Media Query Styling -->
+    
+ <style>
+
+ @media screen and (max-width: 637px) {
+
+    #sign-in-form{
+    font-size:small;
+     }
+ }
+
+
+.form-title {
+    font-size: 25px;
+}
+@media screen and (max-width: 557px) {
+    .flex-outer>li>label, .flex-outer li p {
+    flex: 1 0 62px;
+    }
+
+    .form-title {
+    font-size: 22px;
+}
+    
+
+
+ } @media screen and (max-width: 496.99px) {
+
+    
+    .flex-outer li, .flex-inner {
+    margin-right: 0px;
+    padding-left: 7px;
+}
+ } @media screen and (max-width:397.99px) {
+
+    #sign-in-form{
+        color:red;
+    }
+
+    .flex-outer li, .flex-inner {
+        padding-left:0;
+    }
+
+
+
+
+
+
+
+ } 
+
+
+</style>
