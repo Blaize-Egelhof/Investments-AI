@@ -52,7 +52,7 @@ header {
 #hero-section {
     width: 100%;
     height: 75vh;
-    background: URL(../images/01\ -\ Kipp\ Abstract\ Background\ for\ Tech\ Dots\ &\ Lines\ Connection\ by\ SlidesCorner.com.jpg) no-repeat center / cover;
+    background: URL(../images/hero-img-by-slidescorner.com.jpg) no-repeat center / cover;
     color: white;
 }
 
@@ -103,7 +103,7 @@ header {
 #why-us-section {
     width: 100%;
     height: 75vh;
-    background: URL('../images/Business\ candle\ stick\ graph\ chart\ of\ stock\ market\ investment\ trading.png') no-repeat center / cover fixed;
+    background: URL('../images/business-candle-stick-graph.png') no-repeat center / cover fixed;
     color: white;
 }
 
@@ -166,14 +166,6 @@ header {
 }
 
 .meet-our-team-inner-container {
-    /* width: 100%;
-    height: 55vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: -40px; */
     height: auto;
     display: flex;
     flex-direction: row;
@@ -194,18 +186,9 @@ header {
 }
 
 .member-profile {
-    /* height: 50%;
-    width: 30%;
-    background-color: lightblue;
-    margin: 10px 10px 45px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 200px;
-    max-width: 25vw; */
     min-height: 200px;
     width: 30%;
-    background-color: lightblue;
+    background-color: lightslategray;
     margin: 10px 10px 45px 10px;
     display: flex;
     flex-direction: column;
@@ -214,23 +197,46 @@ header {
     max-width: 25vw;
 }
 
-.member-profile-pic {
+.member-profile-pic-leomord{
     height: 20vw;
     width: 20vw;
     border-radius: 50%;
-    background: white;
+    background: url('../images/leomord-brinks.jpg') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     max-width: 120px;
     max-height: 120px;
 }
 
+.member-profile-pic-sarah{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    background: url('../images/leomord-brinks.jpg') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.member-profile-pic-sean{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    background: url('../images/leomord-brinks.jpg') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 120px;
+    max-height: 120px;
+}
 
 .member-details {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px; */
     margin-top: 10px;
     text-align: center;
+    color:white;
 }
 
 .member-details p {
@@ -316,7 +322,7 @@ header {
 
 #footer-container {
     width: 100%;
-    background: URL('../images/headerpic.jpg');
+    background: URL('../images/footerpic.jpg');
     border-top: groove;
     padding: 20px;
     box-sizing: border-box;
