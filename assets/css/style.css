@@ -247,7 +247,8 @@ header {
 /* Sign-up form */
 
 .sign-up-form-background {
-    background: blue;
+    background: URL(../images/tech-abstract-img.jpg) no-repeat ;
+    background-size:cover;
 }
 
 .form-title {
@@ -270,6 +271,7 @@ header {
 
 .form-dimension {
     height: 100vh;
+    margin: -36px 0px 6px 0px;
 }
 
 .flex-outer li,

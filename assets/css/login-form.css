@@ -96,6 +96,9 @@ header {
 
 .form-dimension {
     height: 100vh;
+    margin: -36px 0px 6px 0px;
+    background: URL(../images/tech-abstract-img.jpg) no-repeat ;
+    background-size:cover;
 }
 
 .flex-outer li,
