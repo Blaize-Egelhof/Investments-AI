@@ -148,11 +148,13 @@ header {
 /* Footer section  */
 
 #footer-container {
-    height: 100px;
     width: 100%;
-    background: URL('../images/headerpic.jpg');
+    background: URL('../images/footerpic.jpg');
     border-top: groove;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 
 .footer-inner-container {
     height: inherit;
