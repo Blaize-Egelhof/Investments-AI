@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+}
+
+/* Header section */
+header {
+    height: 150px;
+    width: 100%;
+    background: URL(../images/headerpic.jpg);
+    border-bottom: black;
+    border-style: groove;
+    margin-bottom: -13px;
+    margin-top: -5px;
+}
+
+#logo {
+    font-family: 'Bruno Ace SC', serif;
+    padding-left: 5px;
+    float: left;
+    letter-spacing: 6px;
+    border-bottom: 20px;
+    border-color: black;
+}
+
+#menu {
+    float: right;
+    padding-top: 15px;
+    font: inherit;
+    padding-right: 10px;
+}
+
+#menu>a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bruno Ace SC', serif;
+    text-decoration: bold;
+    font-weight: 200;
+    background: white;
+}
+
+#menu,
+#logo {
+    line-height: normal;
+}
+
+/* Header section END */
+
+/* Hero Section / Who we are section */
+
+.parent {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/hero-img-by-slidescorner.com.jpg') no-repeat center / cover;
+    margin: 20px 0px;
+  }
+  
+  .child {
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    color:white;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.content h1 {
+    font-family: 'Bruno Ace SC', serif;
+    font-size: 30px;
+}
+  
+  .content p {
+    overflow-wrap: break-word;
+    width: 100%;
+    
+}
+
+
+.meet-team-img { 
+    display:flex;
+    float:right;
+    background: URL('../images/investors-team.png') center /cover;
+    width:45%;
+    height:100%;
+
+
+}
+  
+.parent2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/hero-img-by-slidescorner.com.jpg) no-repeat center / cover;
+    margin: -13px 0px 8px;
+  }
+  
+  .child2 {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    padding:20px;
+  }
+  
+  .meet-team-img2 {
+    background: url('../images/it-team.jpeg') center / cover;
+    width: 45%;
+    height: 100%;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Updated alignment */
+    width: 55%;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .content2 h1 {
+    font-family: 'Bruno Ace SC', serif;
+    font-size: 30px;
+    margin-bottom: 10px; /* Added margin */
+  }
+  
+  .content2 p {
+    overflow-wrap: break-word;
+    width: 100%;
+    margin-bottom: 20px; /* Added margin */
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section */
+
+#footer-container {
+    width: 100%;
+    background: URL('../images/footerpic.jpg');
+    border-top: groove;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-inner-container {
+    height: inherit;
+    width: 100%;
+}
+
+.footer-content h2 {
+    padding: auto;
+}
+
+.footer-content p {
+    padding: auto;
+}
+
+/* Footer section END*/
