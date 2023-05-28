@@ -1,8 +1,14 @@
-# Love Running
+# Investments A.I
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Welcome to Investments AI, an innovative investment firm that revolutionizes the way you invest. We harness the collective expertise of seasoned investors and highly skilled AI specialists to conduct thorough analysis, meticulous study, and precise predictive calculations. Our investment team and AI specialists collaborate closely to ensure we make well-calculated risk-to-reward investment decisions.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+At Investments AI, we cater to both small and large-scale investors who are ready to embrace the power of artificial intelligence alongside traditional investment markets. Statistics demonstrate that investments guided and monitored by our AI bots have a significantly higher chance of thriving compared to the outdated traditional investment methods.
+
+Our investment firm is particularly advantageous for new and intermediate investors who prefer a more balanced risk profile. Unlike other firms that promote high-risk, high-reward strategies, our approach ensures a guaranteed return on your investment within a year. We prioritize safeguarding our clients' investments, significantly reducing the likelihood of loss compared to traditional investment models.
+
+The undeniable success of "Investment bots" in the crypto exchange markets exemplifies their superiority in consistently achieving favorable profit margins compared to individual investors. Therefore, why not capitalize on the best of both worlds?
+
+At Investments AI, we pride ourselves on delivering exceptional service and offering an ironclad guarantee. Trust us to take your investments to new heights with our cutting-edge approach and unwavering commitment to your success.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
