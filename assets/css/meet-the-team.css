@@ -24,6 +24,8 @@ header {
     border-color: black;
 }
 
+
+
 #menu {
     float: right;
     padding-top: 15px;
@@ -31,18 +33,18 @@ header {
     padding-right: 10px;
 }
 
-#menu>a {
+#menu li a {
     text-decoration: none;
     color: black;
     font-family: 'Bruno Ace SC', serif;
-    text-decoration: bold;
     font-weight: 200;
     background: white;
 }
 
-#menu,
-#logo {
-    line-height: normal;
+#menu, #logo {
+  line-height: normal;
+  display: flex;
+  list-style-type: none;
 }
 
 /* Header section END */
@@ -61,10 +63,14 @@ header {
   
   .child {
     width: 90%;
-    height: 400px;
+    height:45vh;
     padding: 20px;
     text-align: center;
     color:white;
+  }
+
+  .child2{
+    height:45vh;
   }
   
   .content {
@@ -113,7 +119,6 @@ header {
   
   .child2 {
     display: flex;
-    height: 400px;
     width: 90%;
     padding:20px;
   }
@@ -163,14 +168,6 @@ header {
     width: 100%;
 }
 
-.footer-content h2 {
-    padding: auto;
-}
-
-.footer-content p {
-    padding: auto;
-}
-
 /* Footer section END*/
 
 /* MEDIA QUERIES*/
@@ -209,235 +206,101 @@ header {
     margin: 0px;
   }
 }
-  @media screen and (max-width: 932px) {
+@media screen and (max-width: 900px) {
+  .parent {
+    width: 100%;
+    height: 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .child {
+    width: 90%;
+    height: 0%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  .meet-team-img {
+    width: 100%;
+    height: 35vh;
+  }
+  .content {
+    width: 100%;
+  }
+  .content p {
+    overflow-wrap: break-word;
+    width: 100%;
+  }
+  .parent2 {
+    width: 100%;
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/upsidedown-hero-img-by-slidescorner.com.jpg) no-repeat center / cover;
+    margin: -13px 0px 8px;
+  }
+  .meet-team-img2 {
+    width: 100%;
+    height: 41vh;
+  }
+  .content2 {
+    width: 100%;
+    height: 0%;
+    padding: 0px;
+    text-align:center;
+  }
+  .content2 h1 {
+    width: 100%;
+  }
+  .child2 {
+    display: block;
+    height: 0%;
+  }
+}
+
+@media screen and (max-width: 565px) {
+    #menu,
+    #logo {
+    line-height: normal;
+    font-size: 26px;
+    }
+    #menu a {
+    font-size: 17px;
+
+    }
     .content p {
+      font-size: 13px;
+      margin: 0px;
+    }
+    .content2 {
+      height: 0%;
+    }
+    .content2 h1 {
+      font-size: 24px;
+    }
+    .content2 p {
+      overflow-wrap: break-word;
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+}
+  @media screen and (max-width: 376px) {
+    #menu, #logo {
+      font-size: 24px;
+  }
+    #menu a {
       font-size: 14px;
   }
-  .content2 {
-    font-size: 14px;
-  }
-  .content2 h1 {
-    font-size: 27px;
-  }
-  }
-  @media screen and (max-width: 860px) {
-    .meet-team-img {
-      width: 44vw;
-      height: 38vh;
-  }
-  .content {
-    width: 38vw;
-  }
-  
   .meet-team-img {
-    margin-top: 58px;
-  }
-  .meet-team-img2 {
-    width: 46vw;
-    height: 40vh;
-    margin-top: 20px
-  }
-  }
-  
-  @media screen and (max-width: 730px) {
-  
-    .content h1 {
-      font-size: 25px;
-  }
-    .content p {
-      font-size: 12px;
-  }
-  
-  .content2 {
-    font-size: 12px;
-  }
-  .meet-team-img2 {
-    width: 47vw;
-    height: 36vh;
-  
-  }
-  
-  
-  
-  }
-  @media screen and (max-width: 695px) {
-    .content h1 {
-      font-size: 22px;
-    }
-    .content2 h1 {
-      font-size: 22px;
-  }
-  .meet-team-img {
-    margin-top: 60px;
-    width: 45vw;
+    width: 100%;
     height: 30vh;
   }
-  .meet-team-img2 {
-    width: 47vw;
-    height: 30vh;
-    margin-top: 48px;
-  }
-  
-  }
-  @media screen and (max-width: 570px) {
-    .content h1 {
-      font-size: 20px;
-  }
-  .content p {
-    font-size: 11px;
 }
-.content2 h1 {
-  font-size: 20px;
+@media screen and (max-width: 350px) {
+  #menu, #logo {
+    font-size: 22px;
 }
-.content2 p {
-  font-size: 10px;
 }
-
-  }
-  @media screen and (max-width: 540px) {
-    .content h1 {
-      font-size: 21px;
-  }
-    .content p {
-      font-size: 10px;
-  }
-  .content2 h1 {
-    font-size: 21px;
-}
-.content2 p {
-  font-size: 10px;
-}
-.meet-team-img {
-
-  height: 26vh;
-}
-.meet-team-img2 {
-  height: 26vh;
-}
-
-
-  }
-
-  @media screen and (max-width: 514px) {
-    .content h1 {
-      font-size: 18px;
-  }
-  .content p {
-    font-size: 9px;
-}
-.content2 h1 {
-  font-size: 18px;
-}
-.content2 p {
-  font-size: 9px;
-}
-.meet-team-img {
-  height: 22vh;
-}
-.meet-team-img2 {
-  height: 22vh;
-  margin-top: 71px;
-}
-
-  }
-
-  @media screen and (max-width: 460px) {
-    .content h1 {
-      font-size: 15px;
-  }
-  .content p {
-    font-size: 8px;
-}
-
-.content2 h1 {
-  font-size: 15px;
-}
-.content2 p {
-  font-size: 8px;
-}
-
-  }
-  
-  @media screen and (max-width: 430px) {
-
-    #menu a { 
-      font-size:15px;
-    }
-    #logo {
-      letter-spacing: 2px;
-  }
-
-    .meet-team-img {
-      height: 22vh;
-      margin-top: 12px;
-  }
-  .content {
-    width: 30vw;
-}
-  .content h1 {
-    font-size: 12px;
-}
-.content p {
-  font-size: 7px;
-}
-
-.meet-team-img2 {
-  height: 18vh;
-  margin-top: 91px;
-}
-
-.content2 h1 {
-  font-size: 12px;
-}
-
-.content2 p {
-  font-size: 7px;
-}
-#footer-container {
-  font-size: 13px;
-}
-  }
-
-  @media screen and (max-width: 370px) {
-    #logo {
-      letter-spacing: 0px;
-  }
-  #menu a { 
-    font-size:15px;
-  }
-    .meet-team-img {
-      height: 18vh;
-      margin-top: 55px;
-  }
-  }
-
-  @media screen and (max-width: 335px) {
-    #logo {
-      font-size: 29px;
-  }
-  #menu a { 
-    font-size:15px;
-  }
-
-  }
-  @media screen and (max-width: 330px) {
-.content h1 {
-  font-size: 10px;
-}
-.content p {
-  font-size: 6px;
-}
-    .content2 h1 {
-      font-size: 10px;
-  }
-  .content2 p {
-    font-size: 6px;
-}
-
-
-    .meet-team-img2 {
-      height: 15vh;
-      margin-top: 96px;
-  }
-  }
-
