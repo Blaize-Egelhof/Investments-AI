@@ -35,7 +35,6 @@ header {
     text-decoration: none;
     color: black;
     font-family: 'Bruno Ace SC', serif;
-    text-decoration: bold;
     font-weight: 200;
     background: white;
 }
@@ -61,7 +60,6 @@ header {
 .info p {
     word-spacing: 3px;
     font-size: larger;
-    margin: none;
     margin-left: 40px;
 }
 
@@ -131,16 +129,13 @@ header {
 }
 
 .why-us-content h1 {
-    float: center;
     font-family: 'Bruno Ace SC', serif;
-    text-decoration: bold;
     font-size: 30px;
 }
 
 .why-us-content p {
     word-spacing: 3px;
     font-size: larger;
-    margin: none;
     margin-left: auto;
 }
 
@@ -336,14 +331,6 @@ header {
     width: 100%;
 }
 
-.footer-content h2 {
-    padding: auto;
-}
-
-.footer-content p {
-    padding: auto;
-}
-
 /* Footer section END*/
 
 /* Media Query for index.html */
@@ -353,14 +340,12 @@ header {
     .why-us-content p {
         word-spacing: 3px;
         font-size: medium;
-        margin: none;
         margin-left: auto;
     }
 
     .info p {
         word-spacing: 3px;
         font-size: medium;
-        margin: none;
         margin-left: 40px;
     }
 
@@ -378,14 +363,12 @@ header {
     .why-us-content p {
         word-spacing: 3px;
         font-size: small;
-        margin: none;
         margin-left: auto;
     }
 
     .info p {
         word-spacing: 3px;
         font-size: small;
-        margin: none;
         margin-left: 40px;
     }
 }
@@ -419,6 +402,7 @@ header {
         float: left;
         border-bottom: 20px;
         border-color: black;
+        font-size: 28px;
     }
 
     .info h2 {
@@ -430,9 +414,7 @@ header {
     }
 
     .why-us-content h1 {
-        float: center;
         font-family: 'Bruno Ace SC', serif;
-        text-decoration: bold;
         font-size: 23px;
     }
 
@@ -450,17 +432,29 @@ header {
         padding-top: 15px;
         font: inherit;
         padding-right: 10px;
-        float: none;
     }
 
     #menu>a {
         font-size: 12px;
     }
 
-    #footer-container {
-        padding: none;
+}
+@media screen and (max-width: 370px) {
+    .why-us-content h1 {
+        font-size: 21px;
     }
 
+    .info h2 {
+        font-size: 27px;
+    }
+
+    #logo {
+        font-size: 27px;
+    }
+
+    #menu {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 340px) {
@@ -482,26 +476,20 @@ header {
     }
 
     #footer-container {
-        padding: none;
+        padding:0;
+    }
+    #menu {
+        font-size: 13px;
+    }
+    #why-us-section {
+        height: 78vh;
     }
 }
-
-@media screen and (max-width: 362px) {
-    .why-us-content h1 {
-        font-size: 21px;
+@media screen and (max-width: 335px) {
+    #why-us-section {
+        height: 81vh;
     }
 
-    .info h2 {
-        font-size: 27px;
-    }
-
-    #logo {
-        font-size: 30px;
-    }
-
-    #footer-container {
-        padding: none;
-    }
 }
 
 /* Media Query for index.html END */
