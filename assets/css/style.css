@@ -31,7 +31,7 @@ header {
     padding-right: 10px;
 }
 
-#menu>a {
+#menu li >a {
     text-decoration: none;
     color: black;
     font-family: 'Bruno Ace SC', serif;
@@ -43,6 +43,8 @@ header {
 #menu,
 #logo {
     line-height: normal;
+    display: flex;
+    list-style-type: none;
 }
 
 /* Header section END */

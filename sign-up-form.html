@@ -11,6 +11,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
     <title>Sign Up</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Media Query Styling -->
+    <style>
+        @media screen and (max-width: 637px) {
+            #sign-in-form {
+                font-size: small;
+            }
+        }
+
+        .form-title {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 557px) {
+            .flex-outer>li>label,
+            .flex-outer li p {
+                flex: 1 0 62px;
+            }
+
+            .form-title {
+                font-size: 22px;
+            }
+        }
+
+        @media screen and (max-width: 496.99px) {
+            .flex-outer li,
+            .flex-inner {
+                margin-right: 0px;
+                padding-left: 7px;
+            }
+        }
+
+        @media screen and (max-width: 409px) {
+            #logo {
+                font-size: 30px;
+            }
+
+            #menu {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 397.99px) {
+            .flex-outer li,
+            .flex-inner {
+                padding-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 351px) {
+            #menu {
+                font-size: 14px;
+            }
+        }
+    </style>
+    <!--END Media Query Styling END -->
 </head>
 
 <body id="sign-up-form-background">
@@ -18,17 +74,19 @@
     <header>
         <h1 id="logo">Investments A.I</h1>
         <ul id="menu">
-            <a href="index.html" target="blank" aria-label="Go to our Home Page" >Home |</a> </li>
-            <a href="login-form.html" target="blank" aria-label="Go to our Login Page"> Login |</a> </li>
-            <a href="login-form.html" target="blank" aria-label="Visit our page dedicated to our team">Meet The Team </a> </li>
+            <li><a href="index.html" aria-label="Go to our Home Page">Home | </a></li>
+            <li><a href="login-form.html" aria-label="Go to our Login Page">Login | </a></li>
+            <li><a href="meet-the-team.html" aria-label="Visit our page dedicated to our team">Meet The Team</a></li>
         </ul>
     </header>
+    <!--END Header END -->
 
-        <section id="form-body">
-            <div class="sign-up-form-background">
+    <!--Sign-Up-Form -->
+    <section id="form-body">
+        <div class="sign-up-form-background">
             <div class="form-dimension">
                 <div class="container-form">
-                    <h1 class="form-title">Fill in the form below and we will contact you !</h1>
+                    <h1 class="form-title">Fill in the form below and we will contact you!</h1>
                     <form action="https://formdump.codeinstitute.net/" method="POST" id="sign-in-form">
                         <ul class="flex-outer">
                             <li>
@@ -49,37 +107,37 @@
                             </li>
                             <li>
                                 <label for="reason_for_applying">Reason for Applying?</label>
-                                <textarea rows="6" id="reason_for_applying"
-                                    placeholder="Enter your message here (Optional)"></textarea>
+                                <textarea rows="6" id="reason_for_applying" placeholder="Enter your message here (Optional)"></textarea>
                             </li>
                             <li>
                                 <p>Age</p>
                                 <ul class="flex-inner">
                                     <li>
-                                      <input type="radio" id="twenty-to-twentynine" name="age-group" required>
-                                      <label for="twenty-to-twentynine">20-29</label>
+                                        <input type="radio" id="twenty-to-twentynine" name="age-group" required>
+                                        <label for="twenty-to-twentynine">20-29</label>
                                     </li>
                                     <li>
-                                      <input type="radio" id="thirty-to-thirtynine" name="age-group">
-                                      <label for="thirty-to-thirtynine">30-39</label>
+                                        <input type="radio" id="thirty-to-thirtynine" name="age-group">
+                                        <label for="thirty-to-thirtynine">30-39</label>
                                     </li>
                                     <li>
-                                      <input type="radio" id="fourty-to-fourtynine" name="age-group">
-                                      <label for="fourty-to-fourtynine">40-49</label>
+                                        <input type="radio" id="fourty-to-fourtynine" name="age-group">
+                                        <label for="fourty-to-fourtynine">40-49</label>
                                     </li>
                                     <li>
-                                      <input type="radio" id="fifty-to-fiftynine" name="age-group">
-                                      <label for="fifty-to-fiftynine">50-59</label>
+                                        <input type="radio" id="fifty-to-fiftynine" name="age-group">
+                                        <label for="fifty-to-fiftynine">50-59</label>
                                     </li>
                                     <li>
-                                      <input type="radio" id="sixty-to-sixtynine" name="age-group">
-                                      <label for="sixty-to-sixtynine">60-69</label>
+                                        <input type="radio" id="sixty-to-sixtynine" name="age-group">
+                                        <label for="sixty-to-sixtynine">60-69</label>
                                     </li>
                                     <li>
-                                      <input type="radio" id="other" name="age-group">
-                                      <label for="other">Other</label>
+                                        <input type="radio" id="other" name="age-group">
+                                        <label for="other">Other</label>
                                     </li>
-                                  </ul>
+                                </ul>
+                            </li>
                             <li>
                                 <button class="button-spacing" type="submit">Submit</button>
                                 <button type="reset">Reset</button>
@@ -89,55 +147,23 @@
                 </div>
             </div>
         </div>
-        </section>
-
+    </section>
+    <!--END Sign-Up-Form END -->
+     
+    <!--Footer -->
     <footer>
-        <script src="https://kit.fontawesome.com/e5d47f9c86.js" crossorigin="anonymous"></script>
         <section id="footer-container">
             <div class="footer-inner-container">
                 <div class="footer-content">
                     <h2>Get in Contact:</h2>
-                    <p><i class="fa-solid fa-envelope"></i> +27 123 123 123</p>
-                    <p><i class="fa-solid fa-envelope"></i> Support@Investmentsai.com</p>
+                    <p><i class="fas fa-envelope"></i> +27 123 123 123</p>
+                    <p><i class="fas fa-envelope"></i> Support@Investmentsai.com</p>
                 </div>
             </div>
         </section>
     </footer>
+    <!--END Footer END -->
+ 
+    <script src="https://kit.fontawesome.com/e5d47f9c86.js" crossorigin="anonymous"></script>
 </body>
-
-  <!--Media Query Styling -->
-    
- <style>
-
- @media screen and (max-width: 637px) {
-
-    #sign-in-form{
-    font-size:small;
-     }
- }
-
-.form-title {
-    font-size: 25px;
-}
-@media screen and (max-width: 557px) {
-    .flex-outer>li>label, .flex-outer li p {
-    flex: 1 0 62px;
-    }
-
-    .form-title {
-    font-size: 22px;
-}
-
- } @media screen and (max-width: 496.99px) {
-    .flex-outer li, .flex-inner {
-    margin-right: 0px;
-    padding-left: 7px;
-}
- } @media screen and (max-width:397.99px) {
-
-    .flex-outer li, .flex-inner {
-        padding-left:0;
-    }
-
- } 
-</style>
+</html>
