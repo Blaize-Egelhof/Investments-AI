@@ -10,7 +10,7 @@ The undeniable success of "Investment bots" in the crypto exchange markets exemp
 
 At Investments AI, we pride ourselves on delivering exceptional service and offering an ironclad guarantee. Trust us to take your investments to new heights with our cutting-edge approach and unwavering commitment to your success.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/business-candle-stick-graph.png)
 
 ## Features 
 
