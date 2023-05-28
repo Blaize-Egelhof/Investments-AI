@@ -10,7 +10,6 @@ header {
     height: 150px;
     width: 100%;
     background: URL(../images/headerpic.jpg);
-    border-bottom: black;
     border-style: groove;
     margin-bottom: -13px;
     margin-top: -5px;
@@ -32,18 +31,19 @@ header {
     padding-right: 10px;
 }
 
-#menu>a {
+#menu li >a {
     text-decoration: none;
     color: black;
     font-family: 'Bruno Ace SC', serif;
-    text-decoration: bold;
-    font-weight: 200;
     background: white;
+    
 }
 
 #menu,
 #logo {
     line-height: normal;
+    display: flex;
+    list-style-type: none;
 }
 
 /* header section END */
@@ -97,8 +97,8 @@ header {
 .form-dimension {
     height: 100vh;
     margin: -36px 0px 6px 0px;
-    background: URL(../images/tech-abstract-img.jpg) no-repeat ;
-    background-size:cover;
+    background: URL(../images/tech-abstract-img.jpg) no-repeat;
+    background-size: cover;
 }
 
 .flex-outer li,
@@ -158,117 +158,109 @@ header {
     box-sizing: border-box;
 }
 
-
 .footer-inner-container {
     height: inherit;
     width: 100%;
 }
 
-.footer-content h2 {
-    padding: auto;
-}
-
-.footer-content p {
-    padding: auto;
-}
-
 /* Footer section END */
 
-/* Media Querys */
+/* Media Queries */
 
 @media screen and (max-width: 473px) {
-
-    .flex-outer>li>label, .flex-outer li p {
+    .flex-outer>li>label,
+    .flex-outer li p {
         flex: 1 0 117px;
         margin-bottom: 20px;
         margin-top: 20px;
         margin-left: 1px;
-         }
-    } 
-    @media screen and (max-width: 470px) {
-        .flex-outer>li>label, .flex-outer li p {
-            flex: 1 0 73px;
-        }
     }
+}
 
-        @media screen and (max-width: 426px) {
-            #logo {
-                letter-spacing: 1px;
-            }
-        }
+@media screen and (max-width: 470px) {
+    .flex-outer>li>label,
+    .flex-outer li p {
+        flex: 1 0 73px;
+    }
+}
 
-            .flex-outer li, .flex-inner {
-                margin-right: 35px;
-            }
+@media screen and (max-width: 426px) {
+    #logo {
+        letter-spacing: 1px;
+    }
+}
 
-                .flex-outer>li>label, .flex-outer li p {
-                    flex: 1 0 83px;
+.flex-outer li,
+.flex-inner {
+    margin-right: 35px;
+}
 
-                }
+.flex-outer>li>label,
+.flex-outer li p {
+    flex: 1 0 83px;
+}
 
-                @media screen and (max-width: 421px) {
+@media screen and (max-width: 421px) {
+    .flex-outer>li>label,
+    .flex-outer li p {
+        flex: 1 0 65px;
+    }
+}
 
-                    .flex-outer>li>label, .flex-outer li p {
-                        flex: 1 0 65px;
-                    }
+@media screen and (max-width: 411px) {
+    #menu {
+        margin-left: -4px;
+        font-size: small;
+    }
+    .flex-outer {
+        margin-top: 150px;
+        margin-left: -40px;
+    }
+    .flex-outer li,
+    .flex-inner {
+        margin-right: 9px;
+    }
+    .flex-outer li,
+    .flex-inner {
+        margin-right: 6px;
+    }
+}
 
-                }
-                @media screen and (max-width: 411px) {
+@media screen and (max-width: 381px) {
+    #menu {
+        float: right;
+        font: inherit;
+        padding-right: 9px;
+        font-size: small;
+    }
+}
 
-                    #menu{
-                        margin-left:-4px;
-                        font-size:small;
-                    }
-                    .flex-outer {
-                        margin-top: 150px;
-                        margin-left: -40px;
-                    }
-                    .flex-outer li, .flex-inner {
-                        margin-right: 9px;
-                    }
-                    .flex-outer li, .flex-inner {
-                        margin-right: 6px;
-                    }
-                }
-                    @media screen and (max-width: 381px) {
-                        #menu {
-                            float: right;
-                            font: inherit;
-                            padding-right: 9px;
-                            font-size:small;
-                        }
-
-                    }
-                    @media screen and (max-width: 351.99px) {
-                        #logo {
-                            padding-left: 0px;
-                            letter-spacing: -2px;
-                        }
-                        #header{
-                            width:none;
-                        }
-                        .flex-outer {
-                            margin-top: 150px;
-                            margin-left: -30px;
-                        }
-                        .flex-outer li, .flex-inner {
-                            margin-right: 93px;
-                        }
-                        .flex-outer>li>label, .flex-outer li p {
-                            margin-top: 12px;
-                    }
-                    .flex-outer li, .flex-inner {
-                        margin-top: 5px;
-                    }
-                    .flex-outer>li>label+*, .flex-inner {
-                        flex: 1 0 188px;
-                    }
-                    #menu {
-                        padding-right: 8px;
-                    }
-                }
-
-        
-        
-
-    
+@media screen and (max-width: 351.99px) {
+    #logo {
+        padding-left: 0px;
+        letter-spacing: -2px;
+    }
+    .flex-outer {
+        margin-top: 150px;
+        margin-left: -30px;
+    }
+    .flex-outer li,
+    .flex-inner {
+        margin-right: 93px;
+    }
+    .flex-outer>li>label,
+    .flex-outer li p {
+        margin-top: 12px;
+    }
+    .flex-outer li,
+    .flex-inner {
+        margin-top: 5px;
+    }
+    .flex-outer>li>label+*,
+    .flex-inner {
+        flex: 1 0 188px;
+    }
+    #menu {
+        padding-right: 8px;
+    }
+}
