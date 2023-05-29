@@ -138,7 +138,8 @@ How I deployed this site using Github Pages
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate 
+    the successful deployment. 
 
 The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
@@ -148,6 +149,37 @@ The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Media: 
+
+-MEDIA:
+
+Globally applicable images : 
+
+Header background img URL :https://za.pinterest.com/pin/748653138049829887/ - Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
+
+Footer background img URL :https://za.pinterest.com/pin/748653138049829887/ - Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
+
+Index.html body : 
+Landing page background img URL :https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/ - Taken from https://slidescorner.com/ -Completly free to use.
+
+Why choose us background section img URL :https://za.pinterest.com/pin/270356783867104506/ -Taken from https://www.istockphoto.com/vector/business-candle-stick-graph-chart-of-stock-market-investment-trading-financial-chart-gm921380008-253052413 -with credit to Istock publisher Yozayo . 
+
+Meet-our-head-team section member img URL's: 
+Profile 1: https://pixabay.com/photos/business-businessman-chair-computer-1839191/ - credit to Pexels 
+Profile 2: https://za.pinterest.com/pin/193443746482722989/ -Published by @emilywongphoto , Full credit goes to @emilywongphoto. 
+Profile 3: https://in.pinterest.com/pin/625437467023443753/ - Published under photodune.net  by vadymvdrobot , full credit to vadymvdrobot
+
+Background img for Sign-up-form.html form and Login-form.html form: 
+https://www.123rf.com/photo_19072901_abstract-futuristic-fade-computer-technology-business-background.html -Published by vska 
+
+Meet-the-team.html body: 
+background images : https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/ - Taken from https://slidescorner.com/ -Completly free to use. , section below uses this exact image , but rotated 180degrees. 
+
+Meet-the-team of investors img: https://za.pinterest.com/pin/1009580441445599246/ -Taken from fortunebuilders.com
+under the Pinterest username:FortuneBuilders
+
+Meet-the-team of AI Specialists img: https://za.pinterest.com/pin/330240585152398223/ -Taken from stocksy.com
+under Pinterest username:Stocksy United 
 
 ### Content 
 
