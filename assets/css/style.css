@@ -461,7 +461,7 @@ header {
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 349px) {
 
     .info h2 {
         font-family: 'Bruno Ace SC', serif;
@@ -487,6 +487,12 @@ header {
     }
     #why-us-section {
         height: 78vh;
+    }
+    .info a {
+        font-size: 11px;
+    }
+    .whychoose-anchor {
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 335px) {
