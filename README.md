@@ -14,76 +14,111 @@ At Investments AI, we pride ourselves on delivering exceptional service and offe
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+In the section below I will highlight each section of my website and explain its purpose , as well as why I have decided to implement each section and feature ! 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all 4 pages .
+  - This section will allow my potential investors to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  -Each Navigation bar is different depending on what page you are on. IE , if a users on the sign-up page , the sign-up a link will be removed and vise versa.
+  -In my Navigation bar I have a sign-up link , login link and meet-the team link . 
+  -I have chosen to incorporate these links with the following ideas in mind:
+     *As a potential investor who may be interested in signing up and finding out more about our services we offer it is a given to have a sign-up link in order to make direct contact between our team and our potential clients. 
+     *As an investor who is already a client of ours a login page is needed in order for our client to login to their uniquily setup account to view their investments. 
+     *Finally , regardless of if you are an existing client or potential client , we have a page dedicated to our 2 main teams who work with our clients investments , this page introduces a more welcoming and anti-corporate approach which to typical investment firm , with the intent of painting our firm as more open , trustworthy and friendly!  
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- __The landing page Section__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - This landing page includes a very suttle hero image with a white text overlay with 2 anker links. 
+  - The anker links are included to give a user the option to sign-up OR login if the user has already decided to do business     
+    with my investment firm after reading the main text included on the landing page.
+  - This section gives a very clear explanation about who we are as an investment firm.
+  - I am aware of the contrast errors given when using WAVE on the landing page. I have chosen to include the errors for  
+    aesthetic purposes as the background doesnt reduce visability of the text while keeping everything clean and simplistic.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Why Choose Us Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section consists of a static background image with text and 2 anker tags .
+  - This section was designed with the following questions in mind , "Why Choose our investment firm over others?" "What makes  
+    our investment firm unique?"
+  - These questions are quickly answered by the short and simple paragraph explaining what makes us the ideal choice over other 
+    investment firms. 
+  - I purposely included the same links mentioned in the landing page in the rare scenario that a potential client may have 
+    already decided to do business with us after reading the why choose us section of our index page, and would like to sign-up or alternativly login if they are existing clients! 
+  - This section is valuable to investors who seek a clear answer to the above mentioned questions without the need of redundant 
+    and/or unessary information as many investment firms incorporate in the attempts to "Hide any clause's and/or valuable   
+    information which may contridict earlier statments" This plays a big part in my attempt to appear as transparent , honest and trustworthy as possible . 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Why Choose Us Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Meet The Head Team Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section is to show the names and faces of our  VIP members who represent Investments AI to all potential and current   
+    cliental. 
+  - In this section there are 3 different profiles seperating images , names and their respective titles.
+  - This again plays into the idea I am trying to communicate honesty , transparency and trustworthyness to all clients . With  
+    the idea of seeing the main faces of the people who manage your money as an investor gives you a greater sense of relief as there is a person to blame if something goes wrong , but also emphasis that we as an investment firm have nothing to hide from our investors , indirectly building trust with our clientale. 
+  - I have decided to keep the page as simple as possible and to get straight to the point in order to help accomadate potential 
+    new investors who are skeptical about giving their money to our firm. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meet The Head Team Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - A footer section that contains the phone number and email address to directly get in contact with us. 
+  - This footer section is valuable to users who have more questions that need to be answered before they even consider signing  
+    up with us. This way they do not have to complete the sign-in form in order to get in contact. This gives them options for contacting us ! 
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __Sign Up Form__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This form is dedicated to present a sign up form which contains a simple form that is intended for first time users signing  
+    up  
+  - This section is valuable to first time potential clients who want to sign up and further enquire about plans etc. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __Login Form__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This section is dedicated to present a login form to any existing cliental who wish to login to their private accounts.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Login Form](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- A seperate dedicated page which can pull client data from a server side and display it for exsting clients who Login.
+- I am unable to implement such a page due to time contraints and lack of knowledge about back-end data management as well as 
+  JavaScript
+- A static page which lets users know that they have succesfully submitted the Sign-Up form to avoid users filling in forms       multiple times , I have not implemented this design due to time constraints.
 
 ## Testing 
+-Globally applicable sections:
+Header:
+In my home page I have included a simple heading that contains a heading and 3 anker tags,all anker tags accross all pages have a white background to provide contrast to the suttle background used in the heading section, I have also included aria-labels for users who are visually impaired. the goal I had for the header is to provide a clear and understandable way of navigating though my website without using the back button built into browsers. I have done so by ensuring each anker element uses the correct URL and does not open a new page when clicking on the anker tags as opening multiple tabs while navigating through 1 website can be frustrating for users. I have written media queries located in style.css to responsivly adapt to all viewport sizes between 330px - 1920 px, ensuring the header looks good regardless of viewport width.I have also ran this section through WAVE and have gotten no errors. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+-footer: 
+In this footer I have chosen to keep it simple to adhere to my general theme of simplicity , I have included a h2 label with 2 paragraph tags which hold my companys phone number and email address , I have chosent to include 2 font awesome icons to help add some clarity to users as to what they must do with the given information. I have tested my footer section using WAVE and have gotten no errors. I have also included media queries to ensure the footer is still responsive covering viewports 330px-1920px.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+-Index.html : 
+-Body: 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Who we are section : 
+In this section I have included a background image with with a simple heading and paragraph which have been aligned to the left.
+The goal of this section is to answer the question most people ask when visiting a new investment firms website , which is "who are these people?" "What makes this investment firm special? " , this section is to answer the first question. I have included a short paragraph briefly describing as the name suggests who we are , with 2 anker tags below the paragraph, I have included aria labels for both anker tags for visually impaired users my goal for these anker tags is to provide options for users once they have read the content , if they decide to do business with us theres a sign up link , if they are currently existing clients who cant find the login form theres a login link righ next to it ! . I have tested this section using WAVE and have chosen to ignore the contrast errors for aesthetic purposes as it doesnt reduce readability of the text while keeping with my websites general look. I have also included media queries for this section to ensure all viewers can view this section confortable using viewports ranging between 330px-1920px . 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Why choose us section: 
+In this section the goal is to be answering the 2nd question mentioned "What makes this investment firm special? " This section includes a suttle static background image with a centered container displaying all worded content answering the above mentioned question. 
+Again I have included 2 anker tags with aria-labels for users with vision impairments to easily browse through my site.  My reasoning for including the 2 anker tags below the paragraph is to help users navigate to the sign up page if they are sold by our first 2 sections , I have included a login anker tag if already existing clients somehow forget where the login form link is , first shown in the header section. I have tested this section using WAVE and have gotten NO mentioned issues.Additonally I have also included media queries covering viewport sizes 330px-1920px to ensure this section shows on almost all screen sizes.
 
+Meet Our Head Team section: 
+In this section I have chosen to openly show my investment firms main head team with the intent of further enphisising transparency , trustworthyness and simplicity to our new or existing clients. I have realised that most new investors will always be hesident to give a firm their hard earned money with the hopes that they will see the money again and any given period of time. This section is to help link faces to our company to provide a better public image of trust which is vital to my type of business. I have included a 3 Containers which hold the image and tital of each head team member . I have tested the section using WAVE and have chosen to ignore the 3 contrast errors for again aesthetic purpose's and as the text's readability isnt affected by its chosen grey background. Additionally I have added media queries to this section to cover viewports between 330px-1920px.
 
 ### Validator Testing 
 
