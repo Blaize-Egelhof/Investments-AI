@@ -102,7 +102,7 @@ header {
 
 .why-us-content h2 {
     font-family: 'Bruno Ace SC', serif;
-  }
+}
 
 #why-us-section {
     width: 100%;
@@ -377,6 +377,12 @@ header {
     }
 }
 
+@media screen and (max-width: 429px) {
+    #menu li >a {
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 425.99px) {
     #logo {
         font-family: 'Bruno Ace SC', serif;
@@ -456,8 +462,8 @@ header {
         font-size: 27px;
     }
 
-    #menu {
-        font-size: 14px;
+    #menu li >a {
+        font-size: 12px;
     }
 }
 
@@ -488,12 +494,19 @@ header {
     #why-us-section {
         height: 78vh;
     }
-    .info a {
+    .info li >a {
         font-size: 11px;
     }
     .whychoose-anchor {
         font-size: 11px;
     }
+    
+}
+@media screen and (max-width: 342px) {
+    #menu li >a {
+        font-size: 10px;
+    }
+        
 }
 @media screen and (max-width: 335px) {
     #why-us-section {
