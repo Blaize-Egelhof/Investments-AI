@@ -10,7 +10,7 @@ The undeniable success of "Investment bots" in the crypto exchange markets exemp
 
 At Investments AI, we pride ourselves on delivering exceptional service and offering an ironclad guarantee. Trust us to take your investments to new heights with our cutting-edge approach and unwavering commitment to your success.
 
-![Responsice Mockup](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/business-candle-stick-graph.png)
+![Responsice Mockup](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/amiresponsive.PNG)
 
 ## Features 
 
@@ -29,7 +29,7 @@ In the section below I will highlight each section of my website and explain its
      *As an investor who is already a client of ours a login page is needed in order for our client to login to their uniquily setup account to view their investments. 
      *Finally , regardless of if you are an existing client or potential client , we have a page dedicated to our 2 main teams who work with our clients investments , this page introduces a more welcoming and anti-corporate approach which to typical investment firm , with the intent of painting our firm as more open , trustworthy and friendly!  
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page Section__
 
@@ -126,7 +126,8 @@ meet-the-team.html| Test Using Lighhouse | Pass all checkboxes with above 80% | 
 meet-the-team.html| Nav buttons |That each nav element takes me to the correct page site page | Works as expected
 meet-the-team.htmll| Click send button with all fields correctly filled in | Routes user to codeinstitute dump page | Works as expected
 
--Lighthouse test results: 
+-Lighthouse test results 
+
 [index.html] (https://za.pinterest.com/pin/330240585152398223/)
 [sign-up.html] (https://za.pinterest.com/pin/330240585152398223/)
 [login-form.html] (https://za.pinterest.com/pin/330240585152398223/)
