@@ -124,12 +124,27 @@ In this section I have chosen to openly show my investment firms main head team 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator] , upon scanning each .html file present. 
+  Index.HTML
+  [Index](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  sign-up-form.html
+  [signup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  login-form.html
+  [login](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  meet-the-team.html
+  [meet-the-team](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator] , upon scanning each .css file present.
+  Style.css
+  [style](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  meet-the-team.css
+  [meettheteam](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  login-form.css
+  [loginform](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  
 ### Unfixed Bugs
 
-No definitive bugs present 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No definitive bugs present  
 
 ## Deployment
 
@@ -151,12 +166,13 @@ The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### Content 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-Media: 
+- The text for my entire website was thumb sucked and put through Grammerly in order to upscale my vocabulary and correct any spelling/or grammatical errors.
+- Instructions on how to design an almost fully responsive form was inspired by the following website [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
--MEDIA:
+### Media
 
 Globally applicable images : 
 
@@ -185,18 +201,6 @@ under the Pinterest username:FortuneBuilders
 
 Meet-the-team of AI Specialists img: https://za.pinterest.com/pin/330240585152398223/ -Taken from stocksy.com
 under Pinterest username:Stocksy United 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
