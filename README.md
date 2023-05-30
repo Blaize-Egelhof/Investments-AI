@@ -40,7 +40,7 @@ In the section below I will highlight each section of my website and explain its
   - I am aware of the contrast errors given when using WAVE on the landing page. I have chosen to include the errors for  
     aesthetic purposes as the background doesnt reduce visability of the text while keeping everything clean and simplistic.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1landingpage.PNG)
 
 - __Why Choose Us Section__
 
@@ -55,7 +55,7 @@ In the section below I will highlight each section of my website and explain its
     and/or unessary information as many investment firms incorporate in the attempts to "Hide any clause's and/or valuable   
     information which may contridict earlier statments" This plays a big part in my attempt to appear as transparent , honest and trustworthy as possible . 
 
-![Why Choose Us Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Why Choose Us Section](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1-why-choose-us-section.PNG)
 
 - __Meet The Head Team Section__
 
@@ -67,7 +67,7 @@ In the section below I will highlight each section of my website and explain its
   - I have decided to keep the page as simple as possible and to get straight to the point in order to help accomadate potential 
     new investors who are skeptical about giving their money to our firm. 
 
-![Meet The Head Team Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meet The Head Team Section](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/meet-the-head-team-img.PNG)
 
 - __The Footer__ 
 
@@ -75,7 +75,7 @@ In the section below I will highlight each section of my website and explain its
   - This footer section is valuable to users who have more questions that need to be answered before they even consider signing  
     up with us. This way they do not have to complete the sign-in form in order to get in contact. This gives them options for contacting us ! 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1footer.PNG)
 
 - __Sign Up Form__
 
