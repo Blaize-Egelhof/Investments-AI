@@ -20,25 +20,27 @@ In the section below I will highlight each section of my website and explain its
 
 - __Navigation Bar__
 
-  - Featured on all 4 pages .
-  - This section will allow my potential investors to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-  -Each Navigation bar is different depending on what page you are on. IE , if a users on the sign-up page , the sign-up a link will be removed and vise versa.
-  -In my Navigation bar I have a sign-up link , login link and meet-the team link . 
-  -I have chosen to incorporate these links with the following ideas in mind:
-     *As a potential investor who may be interested in signing up and finding out more about our services we offer it is a given to have a sign-up link in order to make direct contact between our team and our potential clients. 
-     *As an investor who is already a client of ours a login page is needed in order for our client to login to their uniquily setup account to view their investments. 
-     *Finally , regardless of if you are an existing client or potential client , we have a page dedicated to our 2 main teams who work with our clients investments , this page introduces a more welcoming and anti-corporate approach which to typical investment firm , with the intent of painting our firm as more open , trustworthy and friendly!  
+- Featured on all 4 pages.
+- This section will allow potential investors to easily navigate from page to page across all devices without having to revert 
+  back to the previous page via the 'back' button.
+- In my navigation bar, I have a menu link, sign-up link, login link, and meet-the-team link.
+- I have chosen to incorporate these links with the following ideas in mind:
+- As a potential investor who may be interested in signing up and finding out more about our services, it is essential to have a 
+  sign-up link to facilitate direct contact between our team and potential clients.
+- For investors who are already our clients, a login page is necessary for them to access their uniquely set up accounts and view 
+  their investments.
+- Finally, regardless of whether you are an existing or potential client, we have a page dedicated to our two main teams who work 
+  with our clients' investments. This page adopts a more welcoming and anti-corporate approach compared to typical investment firms, with the intent of portraying our firm as open, trustworthy, and friendly!
 
 ![Nav Bar](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1header!.PNG)
 
 - __The landing page Section__
 
-  - This landing page includes a very suttle hero image with a white text overlay with 2 anker links. 
-  - The anker links are included to give a user the option to sign-up OR login if the user has already decided to do business     
-    with my investment firm after reading the main text included on the landing page.
-  - This section gives a very clear explanation about who we are as an investment firm.
-  - I am aware of the contrast errors given when using WAVE on the landing page. I have chosen to include the errors for  
-    aesthetic purposes as the background doesnt reduce visability of the text while keeping everything clean and simplistic.
+- This landing page includes a very subtle hero image with a white text overlay with 2 anchor links.
+- The anchor links are included to give users the option to sign up or login if they have already decided to do business with my  investment firm after reading the main text included on the landing page.
+- This section provides a clear explanation of who we are as an investment firm.
+- I am aware of the contrast errors highlighted by WAVE on the landing page. I have chosen to include the errors for aesthetic 
+  purposes as the background doesn't reduce the visibility of the text while maintaining a clean and simplistic design.
 
 ![Landing Page](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1landingpage.PNG)
 
@@ -59,21 +61,18 @@ In the section below I will highlight each section of my website and explain its
 
 - __Meet The Head Team Section__
 
-  - This section is to show the names and faces of our  VIP members who represent Investments AI to all potential and current   
-    cliental. 
-  - In this section there are 3 different profiles seperating images , names and their respective titles.
-  - This again plays into the idea I am trying to communicate honesty , transparency and trustworthyness to all clients With  
-    the idea of seeing the main faces of the people who manage your money as an investor gives you a greater sense of relief as there is a person to blame if something goes wrong , but also emphasis that we as an investment firm have nothing to hide from our investors , indirectly building trust with our clientale. 
-  - I have decided to keep the page as simple as possible and to get straight to the point in order to help accomadate potential 
-    new investors who are skeptical about giving their money to our firm. 
+- This section showcases the names and faces of our VIP members who represent Investments AI to all potential and current clients.
+- In this section, there are 3 different profiles featuring images, names, and their respective titles.
+- This again aligns with the idea I am trying to communicate: honesty, transparency, and trustworthiness to all clients. Seeing   the main faces of the people who manage your money as an investor gives you a greater sense of relief, as there is a person to hold accountable if something goes wrong. It also emphasizes that we, as an investment firm, have nothing to hide from our investors, indirectly building trust with our clientele.
+- I have decided to keep the page as simple as possible and get straight to the point in order to accommodate potential new investors who may be skeptical about entrusting their money to our firm.
 
 ![Meet The Head Team Section](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/meet-the-head-team-img.PNG)
 
 - __The Footer__ 
 
-  - A footer section that contains the phone number and email address to directly get in contact with us. 
-  - This footer section is valuable to users who have more questions that need to be answered before they even consider signing  
-    up with us. This way they do not have to complete the sign-in form in order to get in contact. This gives them options for contacting us ! 
+- A footer section that contains the phone number and email address to directly get in contact with us.
+- This footer section is valuable to users who have more questions that need to be answered before they even consider signing up 
+  with us. This way, they do not have to complete the sign-up form in order to get in contact. It provides them with options for contacting us!
 
 ![Footer](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1footer.PNG)
 
@@ -130,6 +129,7 @@ meet-the-team.htmll| Click send button with all fields correctly filled in | Rou
 
 [index.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthouseindex.PNG) [sign-up.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthousesignin.PNG) [login-form.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthouselogin.PNG) [meet-the-team.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthousemeettheteam.PNG)
 
+
 ### Validator Testing 
 
 - HTML
@@ -155,16 +155,15 @@ No definitive bugs present
 
 How I deployed this site using Github Pages
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - I started a repository using Github and cloned it to CodeAnywhere to use as an IDE.
-  - I then used Git add . to add my current changes to a workspace. 
-  - I used git commit -m to commit said changes offically to my workspace. 
-  - I used git push in order to push my changes to my Github Repository to update the offical copies of my code.
-  - After my changes have been pushed :
-  - In the GitHub repository, I navigate to the Settings tab 
-  - From the source section drop-down menu, I select the Master Branch
-  - Once the master branch has been selected, my page was automatically refreshed with a detailed ribbon display to indicate 
-    the successful deployment. 
+- The site was deployed to GitHub Pages. The steps to deploy are as follows:
+  - I started a repository using GitHub and cloned it to CodeAnywhere to use as an IDE.
+  - Then, I used "git add ." to add my current changes to the workspace.
+  - I used "git commit -m" to commit these changes officially to my workspace.
+  - Next, I used "git push" to push my changes to my GitHub repository and update the official copies of my code.
+  - After my changes were pushed:
+  - In the GitHub repository, I navigated to the Settings tab.
+  - From the Source section dropdown menu, I selected the Master Branch.
+  - Once the master branch was selected, my page was automatically refreshed, and a detailed ribbon display indicated the successful deployment.
 
 The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
@@ -172,7 +171,7 @@ The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
 ### Content 
 
-- The text for my entire website was thumb sucked and put through Grammerly in order to upscale my vocabulary and correct any spelling/or grammatical errors.
+- The text for my entire website was thumb sucked and put through [Grammerley](https://www.grammarly.com/grammar-check) in order to upscale my vocabulary and correct any spelling/or grammatical errors.
 - Instructions on how to design an almost fully responsive form was inspired by the following website [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
