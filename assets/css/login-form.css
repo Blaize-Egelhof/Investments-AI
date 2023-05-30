@@ -234,6 +234,16 @@ header {
         font-size: small;
     }
 }
+@media screen and (max-width: 359px) {
+    #menu li >a {
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 359px) {
+    #menu li >a {
+        font-size:11px;
+    }
+}
 
 @media screen and (max-width: 351.99px) {
     #logo {
