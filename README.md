@@ -99,26 +99,12 @@ In the section below I will highlight each section of my website and explain its
 - A static page which lets users know that they have succesfully submitted the Sign-Up form to avoid users filling in forms       multiple times , I have not implemented this design due to time constraints.
 
 ## Testing 
--Globally applicable sections:
-Header:
-In my home page I have included a simple heading that contains a heading and 3 anker tags,all anker tags accross all pages have a white background to provide contrast to the suttle background used in the heading section, I have also included aria-labels for users who are visually impaired. the goal I had for the header is to provide a clear and understandable way of navigating though my website without using the back button built into browsers. I have done so by ensuring each anker element uses the correct URL and does not open a new page when clicking on the anker tags as opening multiple tabs while navigating through 1 website can be frustrating for users. I have written media queries located in style.css to responsivly adapt to all viewport sizes between 330px - 1920 px, ensuring the header looks good regardless of viewport width.I have also ran this section through WAVE and have gotten no errors. 
-
--footer: 
-In this footer I have chosen to keep it simple to adhere to my general theme of simplicity , I have included a h2 label with 2 paragraph tags which hold my companys phone number and email address , I have chosent to include 2 font awesome icons to help add some clarity to users as to what they must do with the given information. I have tested my footer section using WAVE and have gotten no errors. I have also included media queries to ensure the footer is still responsive covering viewports 330px-1920px.
-
--Index.html : 
--Body: 
-
-Who we are section : 
-In this section I have included a background image with with a simple heading and paragraph which have been aligned to the left.
-The goal of this section is to answer the question most people ask when visiting a new investment firms website , which is "who are these people?" "What makes this investment firm special? " , this section is to answer the first question. I have included a short paragraph briefly describing as the name suggests who we are , with 2 anker tags below the paragraph, I have included aria labels for both anker tags for visually impaired users my goal for these anker tags is to provide options for users once they have read the content , if they decide to do business with us theres a sign up link , if they are currently existing clients who cant find the login form theres a login link righ next to it ! . I have tested this section using WAVE and have chosen to ignore the contrast errors for aesthetic purposes as it doesnt reduce readability of the text while keeping with my websites general look. I have also included media queries for this section to ensure all viewers can view this section confortable using viewports ranging between 330px-1920px . 
-
-Why choose us section: 
-In this section the goal is to be answering the 2nd question mentioned "What makes this investment firm special? " This section includes a suttle static background image with a centered container displaying all worded content answering the above mentioned question. 
-Again I have included 2 anker tags with aria-labels for users with vision impairments to easily browse through my site.  My reasoning for including the 2 anker tags below the paragraph is to help users navigate to the sign up page if they are sold by our first 2 sections , I have included a login anker tag if already existing clients somehow forget where the login form link is , first shown in the header section. I have tested this section using WAVE and have gotten NO mentioned issues.Additonally I have also included media queries covering viewport sizes 330px-1920px to ensure this section shows on almost all screen sizes.
-
-Meet Our Head Team section: 
-In this section I have chosen to openly show my investment firms main head team with the intent of further enphisising transparency , trustworthyness and simplicity to our new or existing clients. I have realised that most new investors will always be hesident to give a firm their hard earned money with the hopes that they will see the money again and any given period of time. This section is to help link faces to our company to provide a better public image of trust which is vital to my type of business. I have included a 3 Containers which hold the image and tital of each head team member . I have tested the section using WAVE and have chosen to ignore the 3 contrast errors for again aesthetic purpose's and as the text's readability isnt affected by its chosen grey background. Additionally I have added media queries to this section to cover viewports between 330px-1920px.
+**TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
+----------|----------|----------|----------
+Home page	| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+Home page	| Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+Contact form | Click send button without data in form fields | Cannot submit form | Works as expected
+Nav bar - home page | Click nav buttons | That each nav element takes me to the correct page site page | Works as expected
 
 ### Validator Testing 
 
@@ -136,7 +122,7 @@ In this section I have chosen to openly show my investment firms main head team 
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator] , upon scanning each .css file present.
-  
+
   Style.css
   [style](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
   meet-the-team.css
