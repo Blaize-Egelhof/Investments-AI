@@ -101,12 +101,37 @@ In the section below I will highlight each section of my website and explain its
 ## Testing 
 **TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
 ----------|----------|----------|----------
-Home page	| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
-Home page	| Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
-Home page	| Test Using WAVE | Pass all checks with no errors| 7 Contrast errors found , chose to keep the errors for aestheic purposes and as the text contrast errors do not reduce visability
-Home page	| Test Using Lighhouse | Pass all checkboxes with above 80% | performance @77% the rest works as expected , find results [Here] (https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fblaize-egelhof.github.io%2FProject_1%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
-Contact form | Click send button without data in form fields | Cannot submit form | Works as expected
-Nav bar - home page | Click nav buttons | That each nav element takes me to the correct page site page | Works as expected
+index.html	| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+index.html	| Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+index.html	| Test Using WAVE | Pass all checks with no errors| 7 Contrast errors found , chose to keep the errors for aestheic purposes and as the text contrast errors do not reduce visability
+index.html	| Test Using Lighhouse | Pass all checkboxes with above 80% | performance @77% the rest works as expected , find results below table
+index.html	| Nav buttons |That each nav element takes me to the correct page site page | Works as expected
+sign-up-form.html | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+sign-up-form.html | Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+sign-up-form.html | Click send button without data in form fields | Cannot submit form | Works as expected
+sign-up-form.html | Nav buttons |That each nav element takes me to the correct page site page | Works as expected
+sign-up-form.html | Click send button with all fields correctly filled in | Routes user to codeinstitute dump page | Works as expected
+sign-up-form.html| Test Using WAVE | Pass all checks with no errors| works as expected
+sign-up-form.html| Test Using Lighhouse | Pass all checkboxes with above 80% | works as expected , find results below table
+login-form.html| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+login-form.html| Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+login-form.html| Test Using WAVE | Pass all checks with no errors| works as expected
+login-form.html| Test Using Lighhouse | Pass all checkboxes with above 80% | Works as expected , find results below table
+login-form.html| Nav buttons |That each nav element takes me to the correct page site page | Works as expected
+login-form.html| Click send button with all fields correctly filled in | Routes user to codeinstitute dump page | Works as expected
+meet-the-team.html| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+meet-the-team.html| Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+meet-the-team.html| Test Using WAVE | Pass all checks with no errors| Found 4 contrast errors , which I have chosen to ignore for aestheic purposes as well as the fact that it doesnt reduce user readability
+meet-the-team.html| Test Using Lighhouse | Pass all checkboxes with above 80% | Works as expected , find results below table
+meet-the-team.html| Nav buttons |That each nav element takes me to the correct page site page | Works as expected
+meet-the-team.htmll| Click send button with all fields correctly filled in | Routes user to codeinstitute dump page | Works as expected
+
+-Lighthouse test results: 
+[index.html] (https://za.pinterest.com/pin/330240585152398223/)
+[sign-up.html] (https://za.pinterest.com/pin/330240585152398223/)
+[login-form.html] (https://za.pinterest.com/pin/330240585152398223/)
+[meet-the-team.html] (https://za.pinterest.com/pin/330240585152398223/)
+
 
 ### Validator Testing 
 
@@ -166,33 +191,32 @@ The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
 Globally applicable images : 
 
-Header background img URL :https://za.pinterest.com/pin/748653138049829887/ - Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
 
-Footer background img URL :https://za.pinterest.com/pin/748653138049829887/ - Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
+[Header background] (https://za.pinterest.com/pin/748653138049829887/)- Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
+
+[footer background] (https://za.pinterest.com/pin/748653138049829887/)- Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
 
 Index.html body : 
-Landing page background img URL :https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/ - Taken from https://slidescorner.com/ -Completly free to use.
+[Landing page background img] (https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/)Taken from https://slidescorner.com/ -Completly free to use.
 
-Why choose us background section img URL :https://za.pinterest.com/pin/270356783867104506/ -Taken from https://www.istockphoto.com/vector/business-candle-stick-graph-chart-of-stock-market-investment-trading-financial-chart-gm921380008-253052413 -with credit to Istock publisher Yozayo . 
+[Why choose us background section img] (https://za.pinterest.com/pin/270356783867104506/) -Taken from https://www.istockphoto.com/vector/business-candle-stick-graph-chart-of-stock-market-investment-trading-financial-chart-gm921380008-253052413 -with credit to Istock publisher Yozayo . 
 
 Meet-our-head-team section member img URL's: 
-Profile 1: https://pixabay.com/photos/business-businessman-chair-computer-1839191/ - credit to Pexels 
-Profile 2: https://za.pinterest.com/pin/193443746482722989/ -Published by @emilywongphoto , Full credit goes to @emilywongphoto. 
-Profile 3: https://in.pinterest.com/pin/625437467023443753/ - Published under photodune.net  by vadymvdrobot , full credit to vadymvdrobot
+[Profile 1] (https://pixabay.com/photos/business-businessman-chair-computer-1839191/ ) - credit to Pexels 
+[Profile 2] (https://za.pinterest.com/pin/193443746482722989/ )-Published by @emilywongphoto , Full credit goes to @emilywongphoto. 
+[Profile 3] (https://in.pinterest.com/pin/625437467023443753/) -Published under photodune.net  by vadymvdrobot , full credit to vadymvdrobot
 
-Background img for Sign-up-form.html form and Login-form.html form: 
-https://www.123rf.com/photo_19072901_abstract-futuristic-fade-computer-technology-business-background.html -Published by vska 
+[Background img for Sign-up-form.html form and Login-form.html form] (https://www.123rf.com/photo_19072901_abstract-futuristic-fade-computer-technology-business-background.html) -Published by vska 
 
 Meet-the-team.html body: 
-background images : https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/ - Taken from https://slidescorner.com/ -Completly free to use. , section below uses this exact image , but rotated 180degrees. 
+[background images] ( https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/)- Taken from https://slidescorner.com/ -Completly free to use. , section below uses this exact image , but rotated 180degrees. 
 
-Meet-the-team of investors img: https://za.pinterest.com/pin/1009580441445599246/ -Taken from fortunebuilders.com
+[Meet-the-team of investors img] ( https://za.pinterest.com/pin/1009580441445599246/) -Taken from fortunebuilders.com
 under the Pinterest username:FortuneBuilders
 
-Meet-the-team of AI Specialists img: https://za.pinterest.com/pin/330240585152398223/ -Taken from stocksy.com
+[Meet-the-team of AI Specialists img] ( https://za.pinterest.com/pin/330240585152398223/) -Taken from stocksy.com
 under Pinterest username:Stocksy United 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
 ## Other General Project Advice
 
