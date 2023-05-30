@@ -136,9 +136,14 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 How I deployed this site using Github Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate 
+  - I started a repository using Github and cloned it to CodeAnywhere to use as an IDE.
+  - I then used Git add . to add my current changes to a workspace. 
+  - I used git commit -m to commit said changes offically to my workspace. 
+  - I used git push in order to push my changes to my Github Repository to update the offical copies of my code.
+  - After my changes have been pushed :
+  - In the GitHub repository, I navigate to the Settings tab 
+  - From the source section drop-down menu, I select the Master Branch
+  - Once the master branch has been selected, my page was automatically refreshed with a detailed ribbon display to indicate 
     the successful deployment. 
 
 The live link can be found here - https://blaize-egelhof.github.io/Project_1/

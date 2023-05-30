@@ -24,8 +24,6 @@ header {
     border-color: black;
 }
 
-
-
 #menu {
     float: right;
     padding-top: 15px;
@@ -99,8 +97,6 @@ header {
     background: URL('../images/investors-team.png') center /cover;
     width:45%;
     height:100%;
-
-
 }
 
 /* END Meet the invesment team section END */
@@ -176,25 +172,22 @@ header {
     .meet-team-img {
       width: 45vw;
       height: 48vh;
-  }
+    }
   .content {
     width: 41vw;
-  }
-  
+    }
   
   .meet-team-img2 {
     width: 45vw;
     height: 48vh;
-  }
+    }
   
   .content2{ 
     width: 55vw;
     height: 44vh;
-  }
+    }
   
-  
-    
-  }
+}
   @media screen and (max-width: 1170px) {
   
     .content h1 {
