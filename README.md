@@ -124,6 +124,7 @@ In this section I have chosen to openly show my investment firms main head team 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator] , upon scanning each .html file present. 
+  
   Index.HTML
   [Index](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
   sign-up-form.html
@@ -141,7 +142,7 @@ In this section I have chosen to openly show my investment firms main head team 
   [meettheteam](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
   login-form.css
   [loginform](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  
+
 ### Unfixed Bugs
 
 No definitive bugs present  
