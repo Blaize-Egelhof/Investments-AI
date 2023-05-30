@@ -286,8 +286,11 @@ header {
       margin-bottom: 20px;
       font-size: 13px;
     }
+    #menu li >a {
+      font-size:13px;
+    }
 }
-  @media screen and (max-width: 376px) {
+@media screen and (max-width: 376px) {
     #menu, #logo {
       font-size: 24px;
   }
@@ -299,8 +302,19 @@ header {
     height: 30vh;
   }
 }
+@media screen and (max-width: 364px) {
+  #menu li >a {
+    font-size:12px;
+  }
+}
+
 @media screen and (max-width: 350px) {
   #menu, #logo {
     font-size: 22px;
+  }
 }
+@media screen and (max-width: 342px) {
+  #menu li >a {
+    font-size:10px;
+  }
 }
