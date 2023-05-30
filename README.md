@@ -137,7 +137,7 @@ meet-the-team.htmll| Click send button with all fields correctly filled in | Rou
 
   [Index](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/indexPage.PNG)
   [signup](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/signupform.PNG)
-  [login](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/loginform.PNG
+  [login](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/loginform.PNG)
   [meet-the-team](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/meettheteam.PNG)
 
 - CSS
@@ -199,9 +199,9 @@ Meet-our-head-team section member img URLs:
 Meet-the-team.html body:
 [Background images](https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/) - Taken from [slidescorner.com](https://slidescorner.com/). Completely free to use. The section below uses this exact image but rotated 180 degrees.
 
-[Meet-the-team of investors img](https://za.pinterest.com/pin/1009580441445599246/) - Taken from fortunebuilders.com under the Pinterest username: FortuneBuilders.
+[Meet-the-team of investors img](https://za.pinterest.com/pin/1009580441445599246/) - Taken from [fortunebuilders.com](https://za.pinterest.com/pin/1009580441445599246/) under the Pinterest username: FortuneBuilders.
 
-[Meet-the-team of AI Specialists img](https://za.pinterest.com/pin/330240585152398223/) - Taken from stocksy.com under Pinterest username: Stocksy United.
+[Meet-the-team of AI Specialists img](https://za.pinterest.com/pin/330240585152398223/) - Taken from [stocksy.com](https://za.pinterest.com/pin/1009580441445599246/) under Pinterest username: Stocksy United.
 
 ## Other General Project Advice
 
