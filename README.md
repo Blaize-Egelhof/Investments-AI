@@ -101,8 +101,9 @@ In the section below I will highlight each section of my website and explain its
 ## Testing 
 **TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
 ----------|----------|----------|----------
-Home page	| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+Home page	| Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | huh??
 Home page	| Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+Home page	| Test Using WAVE | Pass all checks with no errors| 7 Contrast errors found , chose to keep the errors for aestheic purposes and as the text contrast errors do not reduce visability
 Contact form | Click send button without data in form fields | Cannot submit form | Works as expected
 Nav bar - home page | Click nav buttons | That each nav element takes me to the correct page site page | Works as expected
 
