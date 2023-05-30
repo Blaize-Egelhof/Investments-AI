@@ -128,24 +128,24 @@ meet-the-team.htmll| Click send button with all fields correctly filled in | Rou
 
 -Lighthouse test results 
 
-[index.html](https://za.pinterest.com/pin/330240585152398223/) [sign-up.html](https://za.pinterest.com/pin/330240585152398223/) [login-form.html](https://za.pinterest.com/pin/330240585152398223/) [meet-the-team.html](https://za.pinterest.com/pin/330240585152398223/)
+[index.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthouseindex.PNG) [sign-up.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthousesignin.PNG) [login-form.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthouselogin.PNG) [meet-the-team.html](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/lighthousemeettheteam.PNG)
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator] , upon scanning each .html file present. 
 
-  [Index](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  [signup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  [login](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  [meet-the-team](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  [Index](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/indexPage.PNG)
+  [signup](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/signupform.PNG)
+  [login](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/loginform.PNG
+  [meet-the-team](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/meettheteam.PNG)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator] , upon scanning each .css file present.
 
-  [style](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  [meettheteam](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  [loginform](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  [style](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/cssstyle.PNG)
+  [meettheteam](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/cssmeettheteam.PNG)
+  [loginform](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/csslogin.PNG)
 
 ### Unfixed Bugs
 
@@ -180,31 +180,28 @@ The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
 Globally applicable images : 
 
-[Header background] (https://za.pinterest.com/pin/748653138049829887/)- Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
+[Header background](https://za.pinterest.com/pin/748653138049829887/) - Taken from [pngtree.com](https://pngtree.com/). With a huge thanks to the user 588ku who published this image from pngtree.com.
 
-[footer background] (https://za.pinterest.com/pin/748653138049829887/)- Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
+[Footer background](https://za.pinterest.com/pin/748653138049829887/) - Taken from [pngtree.com](https://pngtree.com/). With a huge thanks to the user 588ku who published this image from pngtree.com.
 
-Index.html body : 
-[Landing page background img] (https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/)Taken from https://slidescorner.com/ -Completly free to use.
+Index.html body:
+[Landing page background img](https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/) - Taken from [slidescorner.com](https://slidescorner.com/). Completely free to use.
 
-[Why choose us background section img] (https://za.pinterest.com/pin/270356783867104506/) -Taken from https://www.istockphoto.com/vector/business-candle-stick-graph-chart-of-stock-market-investment-trading-financial-chart-gm921380008-253052413 -with credit to Istock publisher Yozayo . 
+[Why choose us background section img](https://za.pinterest.com/pin/270356783867104506/) - Taken from [istockphoto.com](https://www.istockphoto.com/vector/business-candle-stick-graph-chart-of-stock-market-investment-trading-financial-chart-gm921380008-253052413) with credit to Istock publisher Yozayo.
 
-Meet-our-head-team section member img URL's: 
-[Profile 1] (https://pixabay.com/photos/business-businessman-chair-computer-1839191/ ) - credit to Pexels 
-[Profile 2] (https://za.pinterest.com/pin/193443746482722989/ )-Published by @emilywongphoto , Full credit goes to @emilywongphoto. 
-[Profile 3] (https://in.pinterest.com/pin/625437467023443753/) -Published under photodune.net  by vadymvdrobot , full credit to vadymvdrobot
+Meet-our-head-team section member img URLs:
+[Profile 1](https://pixabay.com/photos/business-businessman-chair-computer-1839191/) - Credit to Pexels.
+[Profile 2](https://za.pinterest.com/pin/193443746482722989/) - Published by @emilywongphoto. Full credit goes to @emilywongphoto.
+[Profile 3](https://in.pinterest.com/pin/625437467023443753/) - Published under photodune.net by vadymvdrobot. Full credit to vadymvdrobot.
 
-[Background img for Sign-up-form.html form and Login-form.html form] (https://www.123rf.com/photo_19072901_abstract-futuristic-fade-computer-technology-business-background.html) -Published by vska 
+[Background img for Sign-up-form.html form and Login-form.html form](https://www.123rf.com/photo_19072901_abstract-futuristic-fade-computer-technology-business-background.html) - Published by vska.
 
-Meet-the-team.html body: 
-[background images] ( https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/)- Taken from https://slidescorner.com/ -Completly free to use. , section below uses this exact image , but rotated 180degrees. 
+Meet-the-team.html body:
+[Background images](https://slidescorner.com/backgrounds/background-for-tech-free-for-ppt-google-slides/) - Taken from [slidescorner.com](https://slidescorner.com/). Completely free to use. The section below uses this exact image but rotated 180 degrees.
 
-[Meet-the-team of investors img] ( https://za.pinterest.com/pin/1009580441445599246/) -Taken from fortunebuilders.com
-under the Pinterest username:FortuneBuilders
+[Meet-the-team of investors img](https://za.pinterest.com/pin/1009580441445599246/) - Taken from fortunebuilders.com under the Pinterest username: FortuneBuilders.
 
-[Meet-the-team of AI Specialists img] ( https://za.pinterest.com/pin/330240585152398223/) -Taken from stocksy.com
-under Pinterest username:Stocksy United 
-
+[Meet-the-team of AI Specialists img](https://za.pinterest.com/pin/330240585152398223/) - Taken from stocksy.com under Pinterest username: Stocksy United.
 
 ## Other General Project Advice
 
