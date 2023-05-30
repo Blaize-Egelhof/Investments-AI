@@ -62,7 +62,7 @@ In the section below I will highlight each section of my website and explain its
   - This section is to show the names and faces of our  VIP members who represent Investments AI to all potential and current   
     cliental. 
   - In this section there are 3 different profiles seperating images , names and their respective titles.
-  - This again plays into the idea I am trying to communicate honesty , transparency and trustworthyness to all clients . With  
+  - This again plays into the idea I am trying to communicate honesty , transparency and trustworthyness to all clients With  
     the idea of seeing the main faces of the people who manage your money as an investor gives you a greater sense of relief as there is a person to blame if something goes wrong , but also emphasis that we as an investment firm have nothing to hide from our investors , indirectly building trust with our clientale. 
   - I have decided to keep the page as simple as possible and to get straight to the point in order to help accomadate potential 
     new investors who are skeptical about giving their money to our firm. 
@@ -80,16 +80,16 @@ In the section below I will highlight each section of my website and explain its
 - __Sign Up Form__
 
   - This form is dedicated to present a sign up form which contains a simple form that is intended for first time users signing  
-    up  
+    up . 
   - This section is valuable to first time potential clients who want to sign up and further enquire about plans etc. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Sign Up Form](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1-sign-up-form.PNG)
 
 - __Login Form__
 
   - This section is dedicated to present a login form to any existing cliental who wish to login to their private accounts.
 
-![Login Form](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Login Form](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1-loginform.PNG)
 
 ### Features Left to Implement
 
@@ -128,34 +128,23 @@ meet-the-team.htmll| Click send button with all fields correctly filled in | Rou
 
 -Lighthouse test results 
 
-[index.html] (https://za.pinterest.com/pin/330240585152398223/)
-[sign-up.html] (https://za.pinterest.com/pin/330240585152398223/)
-[login-form.html] (https://za.pinterest.com/pin/330240585152398223/)
-[meet-the-team.html] (https://za.pinterest.com/pin/330240585152398223/)
-
+[index.html](https://za.pinterest.com/pin/330240585152398223/) [sign-up.html](https://za.pinterest.com/pin/330240585152398223/) [login-form.html](https://za.pinterest.com/pin/330240585152398223/) [meet-the-team.html](https://za.pinterest.com/pin/330240585152398223/)
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator] , upon scanning each .html file present. 
 
-  Index.HTML
   [Index](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  sign-up-form.html
   [signup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  login-form.html
   [login](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  meet-the-team.html
   [meet-the-team](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator] , upon scanning each .css file present.
 
-  Style.css
   [style](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  meet-the-team.css
   [meettheteam](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-  login-form.css
   [loginform](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 ### Unfixed Bugs
@@ -179,7 +168,6 @@ How I deployed this site using Github Pages
 
 The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 
-
 ## Credits 
 
 ### Content 
@@ -191,7 +179,6 @@ The live link can be found here - https://blaize-egelhof.github.io/Project_1/
 ### Media
 
 Globally applicable images : 
-
 
 [Header background] (https://za.pinterest.com/pin/748653138049829887/)- Taken from https://pngtree.com/ With a huge thanks to the user 588ku who published this image from pngtree.com
 
