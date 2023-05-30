@@ -29,7 +29,7 @@ In the section below I will highlight each section of my website and explain its
      *As an investor who is already a client of ours a login page is needed in order for our client to login to their uniquily setup account to view their investments. 
      *Finally , regardless of if you are an existing client or potential client , we have a page dedicated to our 2 main teams who work with our clients investments , this page introduces a more welcoming and anti-corporate approach which to typical investment firm , with the intent of painting our firm as more open , trustworthy and friendly!  
 
-![Nav Bar]()
+![Nav Bar](https://github.com/Blaize-Egelhof/Project_1/blob/main/media-for-readme/project1header!.PNG)
 
 - __The landing page Section__
 
