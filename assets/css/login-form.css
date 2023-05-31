@@ -35,8 +35,7 @@ header {
     text-decoration: none;
     color: black;
     font-family: 'Bruno Ace SC', serif;
-    background: white;
-    
+    background: white;  
 }
 
 #menu,
@@ -279,3 +278,4 @@ header {
         padding-right: 8px;
     }
 }
+/*  END */

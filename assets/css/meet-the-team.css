@@ -5,6 +5,7 @@ body {
 }
 
 /* Header section */
+
 header {
   height: 150px;
   width: 100%;
@@ -313,3 +314,4 @@ header {
     font-size: 10px;
   }
 }
+/*  END */
