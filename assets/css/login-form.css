@@ -168,7 +168,7 @@ header {
 /* Media Queries */
 
 @media screen and (max-width: 473px) {
-    .flex-outer>li>label,
+    .flex-outer > li > label,
     .flex-outer li p {
         flex: 1 0 117px;
         margin-bottom: 20px;
@@ -178,15 +178,18 @@ header {
 }
 
 @media screen and (max-width: 470px) {
-    .flex-outer>li>label,
+    .flex-outer > li > label,
     .flex-outer li p {
         flex: 1 0 73px;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 429px) {
     #logo {
         letter-spacing: 1px;
+    }
+    #menu li > a {
+        font-size: 13px;
     }
 }
 
@@ -195,13 +198,13 @@ header {
     margin-right: 35px;
 }
 
-.flex-outer>li>label,
+.flex-outer > li > label,
 .flex-outer li p {
     flex: 1 0 83px;
 }
 
 @media screen and (max-width: 421px) {
-    .flex-outer>li>label,
+    .flex-outer > li > label,
     .flex-outer li p {
         flex: 1 0 65px;
     }
@@ -234,14 +237,16 @@ header {
         font-size: small;
     }
 }
+
 @media screen and (max-width: 359px) {
-    #menu li >a {
-        font-size:12px;
+    #menu li > a {
+        font-size: 12px;
     }
 }
+
 @media screen and (max-width: 359px) {
-    #menu li >a {
-        font-size:11px;
+    #menu li > a {
+        font-size: 11px;
     }
 }
 
@@ -258,7 +263,7 @@ header {
     .flex-inner {
         margin-right: 93px;
     }
-    .flex-outer>li>label,
+    .flex-outer > li > label,
     .flex-outer li p {
         margin-top: 12px;
     }
@@ -266,7 +271,7 @@ header {
     .flex-inner {
         margin-top: 5px;
     }
-    .flex-outer>li>label+*,
+    .flex-outer > li > label + *,
     .flex-inner {
         flex: 1 0 188px;
     }
