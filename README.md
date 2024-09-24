@@ -166,7 +166,7 @@ How I deployed this site using Github Pages
   - From the Source section dropdown menu, I selected the Master Branch.
   - Once the master branch was selected, my page was automatically refreshed, and a detailed ribbon display indicated the successful deployment.
 
-The live link can be found here - https://blaize-egelhof.github.io/Project_1/
+The live link can be found here - https://blaize-egelhof.github.io/Investments-AI/
 
 ## Credits 
 
